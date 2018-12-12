@@ -4,7 +4,7 @@ In the spirit of open science, I want to make my research as accessible as possi
 
 #### Table of Contents (TOC)
 
-If you are viewing this webpage on your phone, you can navigate between chapters by clicking the 3 horizontal bars to view the TOC. If you are viewing this webpage on a laptop or tablet, you may be able to see the TOC on the left as well as subheadings for each page on the right. Happy viewing. 
+If you are viewing this webpage on your phone, you can navigate between chapters by clicking the 3 horizontal bars in the top left to view the TOC. If you are viewing this webpage on a laptop or tablet, you may be able to see the TOC on the left as well as subheadings for each page on the right. Happy viewing. 
 
 * [**Home**](https://raynamharris.github.io/Thesis/index): You are here
 * [**Preface**](https://raynamharris.github.io/Thesis/preface): Aka the acknowledgment section
@@ -19,9 +19,3 @@ If you are viewing this webpage on your phone, you can navigate between chapters
 #### PhD Defense Announcement
 
 ![flyer](https://github.com/raynamharris/Thesis/blob/master/docs/_images/00_flyer.png?raw=true)
-
-
-### Slides 
-
-http://speakerdeck.com/oembed.json?url=https://speakerdeck.com/raynamharris/transcriptional-plasticity-in-the-hippocampus-and-its-role-in-avoidance-learning
-
