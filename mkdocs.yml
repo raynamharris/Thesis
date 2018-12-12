@@ -67,6 +67,14 @@ extra:
     - type: twitter
       link: https://twitter.com/raynamharris
 
+# Extensions      
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true      
+
 # Page tree
 nav:
   - Home: index.md
