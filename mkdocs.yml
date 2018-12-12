@@ -75,7 +75,12 @@ markdown_extensions:
   - codehilite:
       guess_lang: false
   - toc:
-      permalink: true      
+      permalink: true  
+      
+# Google Analytics
+google_analytics:
+  - 'UA-58133703-1'
+  - 'auto'          
 
 # Page tree
 nav:
