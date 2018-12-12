@@ -35,7 +35,7 @@ copyright: 'Copyright &copy; 2017 <a href="http://ivory.idyll.org/lab/">Rayna Ha
 # Configuration
 theme:
   name: null
-  custom_dir: material
+  custom_dir: mkdocs-material-dib/material
 
   # 404 page
   static_templates:
