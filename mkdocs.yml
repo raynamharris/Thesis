@@ -100,9 +100,9 @@ nav:
   - Home: index.md
   - Preface: preface.md
   - Introduction: 00_intro.md
-  - Chapter 1: Brains and behavior: 01_intwt15.md
-  - Chapter 2: Genetic manipulation: 02_fmr1.md
-  - Chapter 3: Neural Dissociation: 03_dissociation.md
+  - Chapter 1 Brains and behavior: 01_intwt15.md
+  - Chapter 2 Genetic manipulation: 02_fmr1.md
+  - Chapter 3 Neural Dissociation: 03_dissociation.md
   - Author's notes: authors-notes.md
   - Conclusion: conclusion.md
   - My CV: cv.md
