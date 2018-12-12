@@ -1,6 +1,4 @@
-## Introduction
-
-### Problem Statement
+## Problem Statement
 
 How do we learn our way from one place to another? How do we remember places we have visited before? How do we remember our experiences in those places? These questions of learning, memory, and behavior apply to our everyday lives and can be studied rigorously with cellular and molecular approaches. Learning is influenced by many different biological timescales - physiological time via effects on brain activity through neural circuits, developmental via changes that effect genome modification and development, and evolutionary, via the processes that shape natural selection.
 
@@ -8,7 +6,7 @@ Neurons differ from one another in many ways: structurally, functionally and gen
 
 One goal of modern neuroscience is to fully characterize the structure and function of all the molecules in all the neurons in all the circuits of the human brain8,9, and a goal of modern biologists is sequence all the genes in all the tissues of millions of organisms.  Generations of behavioral neuroscientists have developed highly-sophisticated paradigms for taking a reductionists approach to neuroscience5,6,10–14.
 
-### Neurogenomic approach to understanding brain function
+## Neurogenomic approach to understanding brain function
 
 On the other hand, the fields of data science and neurogenomics explore complex interactions among genotypes, phenotypes, and the environment by conducting large-scale studies with multiple hypotheses testing and data-driven discovery of unknown biological processes. Neurogenomics is a collaborative, interdisciplinary, integrative field of study that unites diverse expertise, techniques, theories, and approaches to shed new lights on complex biological processes. Integrating data from data-driven collection platforms like high-throughput sequencing and real-time behavioral tracking provides additional insight into how neural systems work. Conducting reproducible research in an open science environment can make this approach even more powerful.  
 
@@ -16,7 +14,7 @@ Large-scale transcriptomic studies have uncovered patterns of gene networks that
 
 Transcriptomic analyses examining sub-fields of the hippocampus (or the whole hippocampus) have shed light on proximate mechanisms regulating learning and memory23–28. However, the hippocampus and the CA1 subfield are composed of multiple morphologically and functionally distinct cell classes, which may make whole hippocampus samples poor estimates of the molecular activity patterns in learning-recruited neurons. How representative are hippocampal patterns of gene expression compared to single-neuron patterns of molecular activity? While imaging and molecular genetic tools have long complemented single cell electrophysiological analyses, it has now also become possible to conduct molecular level analyses on a single neuron level20. RNA-sequencing technology has advanced sufficiently in recent years to conduct single-cell transcriptomic projects. Indeed, several proof-of-principle studies demonstrating feasibility and robustness have been published. We will take both single neuron and hippocampal CA1 tissue samples to identify the extent to which patterns of variability are preserved across these two levels of analysis.
 
-### Research approach
+## Research approach
 
 For my thesis, I use an integrative approach to fill a gap in our understanding of how the outward expression of learning and memory is controlled by cellular mechanisms in the brain (Fig 0.2). In Chapter 1, I will research how avoidance behaviors are regulated by molecular changes that alter the synaptic activity in a hippocampal circuit. My null hypothesis is that there is no difference in subfield specific response of hippocampal transcriptomes to conditioned place avoidance memory. The detection of subfield-specific changes in gene expression while shedding new light on our understanding of functional changes subservient to memory underlying changes in behavior.
 

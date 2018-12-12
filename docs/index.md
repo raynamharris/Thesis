@@ -1,8 +1,6 @@
-## Rayna Harris' Thesis Website
-
 In the spirit of open science, I want to make my research as accessible as possible. This webpage is a tool for disseminating my thesis research in a format that is more user-friendly than a 100-page, double-spaced PDF file. The materials were submitted to the University Graduate School of UT Austin on December 8, 2017 in fullfillment of the requirments for a Ph.D. degree. 
 
-#### Table of Contents (TOC)
+## Table of Contents (TOC)
 
 If you are viewing this webpage on your phone, you can navigate between chapters by clicking the 3 horizontal bars in the top left to view the TOC. If you are viewing this webpage on a laptop or tablet, you may be able to see the TOC on the left as well as subheadings for each page on the right. Happy viewing. 
 
@@ -16,6 +14,6 @@ If you are viewing this webpage on your phone, you can navigate between chapters
 * [**My CV**](https://raynamharris.github.io/Thesis/cv) at the time of graduation
 * [**Slides**](https://speakerdeck.com/raynamharris/transcriptional-plasticity-in-the-hippocampus-and-its-role-in-avoidance-learning) from my dissertation defense on October 18, 2017
 
-#### PhD Defense Announcement
+## PhD Defense Announcement
 
 ![flyer](https://github.com/raynamharris/Thesis/blob/master/docs/_images/00_flyer.png?raw=true)

@@ -1,14 +1,13 @@
-Education
-=========
+## Education
 
-**The University of Texas at Austin**, Austin, Texas\
+**The University of Texas at Austin**, Austin, Texas
     Biochemistry; B.S., 2006
 
-**The University of Texas at Austin**, Austin, Texas\
+**The University of Texas at Austin**, Austin, Texas
     Cell and Molecular Biology; PhD., Dec 2017
 
-Honors and Awards
-===========
+## Honors and Awards
+
 
 - Elected to the Software Carpentry Steering Committee (2016 - 17)
 
@@ -22,8 +21,8 @@ Honors and Awards
 
 - Honorable mention, National Science Foundation Graduate Research Fellowship (2013, 14)
 
-Publications
-============
+## Publications
+
 
 *ORCiD publication list:* <http://orcid.org/0000-0002-7943-5650>
 
@@ -32,8 +31,8 @@ Publications
 *Google Scholar statistics as of December 2017:* 
 434 citations; h-index of 8, i10-index of 7
 
-Pre-prints
-==========
+### Pre-prints
+
 
 1. **Harris RM**, Kao H-Y, Alarcon JM, Hofmann HA, Fenton AA (2017) Analysis of hippocampal transcriptomic responses to technical and biological perturbations. BioRXiv 153585.
 
@@ -41,8 +40,7 @@ Pre-prints
 
 1. **Harris RM**, Otopalik AG, Smith C, Bucher D, Golowasch J, Hofmann HA (2017) Single-Neuron Gene Expression Analysis Using the Maxwell 16 LEV System. BioRXiv 107342.
 
-Peer Reviewed Publications
-==========================
+### Peer Reviewed Publications
 
 1. Renn SPC, Machado H, Duftner N, **Harris RM**, Sessa AK, Hofmann HA. Gene Expression Signatures of Mating System Evolution. Genome. DOI: 10.1139/gen-2017-0075.
 
@@ -66,8 +64,7 @@ Peer Reviewed Publications
 
 1. Oldfield RG, **Harris RM**, Hendrickson DA, Hofmann HA (2013) Arginine Vasotocin and Prolactin Pathways are Associated with Mating System Variation in North American Cichlid Fishes. Horm. Behav. 64:44-52.
 
-Invited Articles and Reviews
-============================
+### Invited Articles and Reviews
 
 1. **Harris RM**, O13Connell LA, Hofmann HA (2016) Brain Evolution, Development, and Plasticity, in The Wiley Handbook of Evolutionary Neuroscience (ed S. V. Shepherd), John Wiley & Sons, Ltd, Chichester, UK. doi: 10.1002/9781118316757.ch15
 
@@ -77,15 +74,14 @@ Invited Articles and Reviews
 
 1. **Harris RM**, Hofmann HA (2014) Neurogenomics of Behavioral Plasticity. Adv. Exp. Med. Biol. 781:149-68.
 
-Open Access Educational Materials
-=================================
+### Open Access Educational Materials
 
 1. Ahmadia A, Allen J, Banaszkiewicz P, Becker E, Bekolay T, Blischak J, Boughton A, Bray E, Cabunoc Mayes A, Crouch S, Davis N, Davis M,Duckles J, Emonet, R; Fortin, FA, Gonzalez I, Hamm C, Hansen M, **Harris RM**, et al. (2016) Software Carpentry: Instructor Training. Zenodo. 10.5281/zenodo.57571
 
 1. **Harris RM**, Hofmann HA (2014). Laboratory Experiments for the 2014 Integrative Molecular Neuroscience Module. Zenodo. 10.5281/zenodo.60725
 
-Invited and Contributed Talks
-========================
+## Invited and Contributed Talks
+
 - **The North Door**. Nerd Nite Austin Texas. January 10, 2018. [Slides](https://speakerdeck.com/raynamharris/zombie-brains-microbial-mind-control)
 
 - **UT Austin**. RNA/DNA Club. December 11, 2017
@@ -124,8 +120,8 @@ Invited and Contributed Talks
 
 - **University of Bergen**. Behavioural Fish Neuroscience Network Conference. November 12, 2012
 
-Scientific Posters
-===========
+## Scientific Posters
+
 
 - 2017 The Moore Foundation Early Career Researcher Symposium. Waikoloa Beach, HI
 
@@ -157,17 +153,16 @@ Scientific Posters
 
 - 2012 Gordon Research Conference in Genes and Behavior. Galveston, TX
 
-Selected GitHub Repositories
-================
+## Selected GitHub Repositories
 
--  [Thesis](https://github.com/raynamharris/Thesis). The GitHub repository where I build a website for an easy-to-read-on-a-phone version of my thesis.\
+
+- [Thesis](https://github.com/raynamharris/Thesis). The GitHub repository where I build a website for an easy-to-read-on-a-phone version of my thesis.\
 
 -  [IntegrativeProjectWT2015](https://github.com/raynamharris/IntegrativeProjectWT2015). My bioinformatic workflow for studying transcriptional plasticity in the mouse hippocampus and its role in avoidance learning.\
 
 - [DissociationTest](https://github.com/raynamharris/DissociationTest). My bioinformatic workflow for testing the influence of cellular dissocation on hippocampal gene expression in laboratory mice.\
 
-Professional Activities
-=============
+## Professional Activities
 
 - **Peer-reviewer** Behavioral Ecology; Gene; Genes, Genomes & Genetics; Journal of Experimental Zoology Part A; Physiology & Behavior; PLOS ONE; Proceedings of the Royal Society B.
 
@@ -192,10 +187,9 @@ Professional Activities
 
 - **Spanish Translator** “Welcome to the World of Mushrooms”, INBio Park, Costa Rica, 2009
 
-Teaching
-========
+## Teaching
 
-**Lesson Development**
+### Lesson Development 
 
 -   Instructor Training, Software Carpentry and Data Carpentry
 
@@ -204,7 +198,7 @@ Teaching
 -   Integrative Molecular Neuroethology, Neural Systems & Behavior
     Course
 
-**Lead or Co-Lead Instructor**
+### Lead or Co-Lead Instructor 
 
 -   Instructor Training, Software Carpentry and Data Carpentry (2016 –
     present)
@@ -222,7 +216,7 @@ Teaching
 
 -   Introduction to Spanish, Futura Language Professionals (2008 - 2009)
 
-**Teaching Assistant**
+### Teaching Assistant 
 
 -   Biostatistics (SDS 328M), UT Austin (2017)
 
@@ -235,7 +229,7 @@ Teaching
 
 -   Advanced Organic Chemistry Laboratory (CH 118K/L), UT Austin (2007)
 
-**Guest Lecturer**
+### Guest Lecturer 
 
 -   Comparative Animal Physiology (BIO 361T), UT Austin (2016)
 
@@ -245,8 +239,8 @@ Teaching
     Uruguay (2013). [Slides](https://www.slideshare.net/raynamharris/time-and-money-techniques-for-neural-gene-expression-profiling?qid=54595bce-1803-439f-befd-c864596ed79c&v=&b=&from_search=6)
 
 
-Social Media\ and Blogs
-=============
+## Social Media and Blogs
+
 
 **Twitter**: Personal [@raynamharris](http://twitter.com/raynamharris), Bioinformatics [@texas\_cbrs](http://twitter.com/texas_cbrs), and Neuroscience [@nsb\_mbl](http://twitter.com/nsb_mbl)
 

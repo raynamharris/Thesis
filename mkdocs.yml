@@ -79,12 +79,11 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Overview: index.md
   - Preface: preface.md
   - Introduction: 00_intro.md
-  - Chapter 1 Brains and behavior: 01_intwt15.md
-  - Chapter 2 Genetic manipulation: 02_fmr1.md
-  - Chapter 3 Neural Dissociation: 03_dissociation.md
-  - Author's notes: authors-notes.md
+  -  Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus: 01_intwt15.md
+  - Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism: 02_fmr1.md
+  - Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations: 03_dissociation.md
   - Conclusion: conclusion.md
-  - My CV: cv.md
+  - Curriculum Vitae: cv.md
