@@ -4,9 +4,7 @@ In the spirit of open science, I want to make my research as accessible as possi
 
 [You can view my thesis webpage here.](https://raynamharris.github.io/Thesis)
 
-This site was build using the [Mkdocs theme for customized for Data Intensive Biology Lab at UC Davis](https://github.com/dib-lab/mkdocs-material-dib).
-
-To push new commits to the site use the follow commands
+This site was built using the [Mkdocs theme for customized for Data Intensive Biology Lab at UC Davis](https://github.com/dib-lab/mkdocs-material-dib). The full documentation is in that README. For convenience, I've copied to commands to rebuilding the site here. Use `mkdocs serve` to preview locally. 
 
 ```
 rm -rf site/*   # Clean out any existing files
@@ -17,3 +15,5 @@ git commit -m "update site"   # Commit all changes
 git push origin gh-pages
 cd ..        
 ```
+
+
