@@ -11,9 +11,9 @@ To push new commits to the site use the follow commands
 ```
 rm -rf site/*   # Clean out any existing files
 mkdocs build    # Build the docs in site/
-cd site/		# navigate to site directory
+cd site/        # navigate to site directory
 git add -A .    # Stage every change in the current directory for commit
 git commit -m "update site"   # Commit all changes
 git push origin gh-pages
-cd ..			# navigate out of site/
+cd ..        
 ```
