@@ -84,7 +84,7 @@ google_analytics:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Overview: index.md
   - Preface: preface.md
   - Introduction: 00_intro.md
   -  Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus: 01_intwt15.md
