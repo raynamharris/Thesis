@@ -9,7 +9,7 @@ If you are viewing this webpage on your phone, you can navigate between chapters
 * [**Introduction**](https://raynamharris.github.io/Thesis/00_intro): Background and approach
 * [**Chapter 1: Brains and behavior**](https://raynamharris.github.io/Thesis/01_intwt15): Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus
 * [**Chapter 2: Genetic manipulation**](https://raynamharris.github.io/Thesis/02_fmr1): Reproducible approaches for studying behavior and transcription in a mouse model for autism
-* [**Chapter 3: Neural Dissociation**](https://raynamharris.github.io/Thesis/03_dissociation): Analysis of hippocampal transcriptomic responses to technical and biological perturbations
+* [**Chapter 3: Neural dissociation**](https://raynamharris.github.io/Thesis/03_dissociation): Analysis of hippocampal transcriptomic responses to technical and biological perturbations
 * [**Conclusion**](https://raynamharris.github.io/Thesis/conclusion): What did I learn?
 * [**My CV**](https://raynamharris.github.io/Thesis/cv) at the time of graduation
 * [**Slides**](https://speakerdeck.com/raynamharris/transcriptional-plasticity-in-the-hippocampus-and-its-role-in-avoidance-learning) from my dissertation defense on October 18, 2017
