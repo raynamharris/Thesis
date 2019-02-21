@@ -13,7 +13,8 @@ cd site/        # navigate to site directory
 git add -A .    # Stage every change in the current directory for commit
 git commit -m "update site"   # Commit all changes
 git push origin gh-pages
-cd ..        
+cd .. 
+
 ```
 
 
