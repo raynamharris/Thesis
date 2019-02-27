@@ -1,10 +1,4 @@
-## Extras
-
-Read the preprint at [https://www.biorxiv.org/content/early/2017/06/21/153585](https://www.biorxiv.org/content/early/2017/06/21/153585).
-
-Watch the YouTube video tutorial for data management and analysis here: [https://www.youtube.com/watch?v=taeAqimxXWo](https://www.youtube.com/watch?v=taeAqimxXWo).
-
-[![screenshot](https://github.com/raynamharris/Thesis/blob/master/docs/_images/30_screenshot.png?raw=true)](https://www.youtube.com/watch?v=taeAqimxXWo)
+_This chapter is available as a pre-print at [https://www.biorxiv.org/content/10.1101/153585v2](https://www.biorxiv.org/content/10.1101/153585v2).__
 
 ## ABSTRACT
 
