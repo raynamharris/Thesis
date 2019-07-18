@@ -1,0 +1,1219 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Transcriptional Plasticity in the Hippocampus and its Role in Conditioned Avoidance Learning">
+      
+      
+        <link rel="canonical" href="http://raynamharris.github.io/Thesis/02_fmr1/">
+      
+      
+        <meta name="author" content="Rayna Harris">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching pages">
+      
+        <meta name="lang:search.result.one" content="1 matching page">
+      
+        <meta name="lang:search.result.other" content="# matching page">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.3">
+    
+    
+      
+        <title>Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism - Rayna Harris Ph.D. Thesis</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009688">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../#abstract" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://raynamharris.github.io/Thesis" title="Rayna Harris Ph.D. Thesis" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Rayna Harris Ph.D. Thesis
+              </span>
+              <span class="md-header-nav__topic">
+                Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search this site" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching this site
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/raynamharris/Thesis" title="Go to repository" class="md-source" data-md-source="github">
+    
+    <div class="md-source__repository">
+      raynamharris/Thesis
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="http://raynamharris.github.io/Thesis" title="Rayna Harris Ph.D. Thesis" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Rayna Harris Ph.D. Thesis
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/raynamharris/Thesis" title="Go to repository" class="md-source" data-md-source="github">
+    
+    <div class="md-source__repository">
+      raynamharris/Thesis
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../preface/" title="Preface" class="md-nav__link">
+      Preface
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../00_intro/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../01_intwt15/" title="Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus" class="md-nav__link">
+      Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism
+      </label>
+    
+    <a href="./" title="Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism" class="md-nav__link md-nav__link--active">
+      Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#active-place-avoidance" title="Active Place Avoidance" class="md-nav__link">
+    Active Place Avoidance
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-21-active-place-avoidance-task-with-conflict-training" title="Fig. 2.1:  Active place avoidance task with conflict training." class="md-nav__link">
+    Fig. 2.1:  Active place avoidance task with conflict training.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistical-analyses-of-behavior-and-synaptic-physiology" title="Statistical analyses of behavior and synaptic physiology" class="md-nav__link">
+    Statistical analyses of behavior and synaptic physiology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tissue-preparation-and-electrophysiology" title="Tissue preparation and electrophysiology" class="md-nav__link">
+    Tissue preparation and electrophysiology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rna-sequencing-and-bioinformatics" title="RNA-sequencing and bioinformatics" class="md-nav__link">
+    RNA-sequencing and bioinformatics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistics-and-data-visualization-of-rna-sequencing-data" title="Statistics and data visualization of RNA-sequencing data" class="md-nav__link">
+    Statistics and data visualization of RNA-sequencing data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archival-of-data-code-and-figures" title="Archival of data, code, and figures" class="md-nav__link">
+    Archival of data, code, and figures
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" title="Results" class="md-nav__link">
+    Results
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-22-hypothesis-and-predicted-behaviors" title="Fig. 2.2:  Hypothesis and predicted behaviors." class="md-nav__link">
+    Fig. 2.2:  Hypothesis and predicted behaviors.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-significant-pre-training-group-differences" title="No significant pre-training group differences" class="md-nav__link">
+    No significant pre-training group differences
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-23-no-group-differences-before-behavioral-manipulation" title="Fig. 2.3:  No group differences before behavioral manipulation." class="md-nav__link">
+    Fig. 2.3:  No group differences before behavioral manipulation.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-24-the-proportion-of-time-spent-in-in-the-arena-with-the-shock-on" title="Fig. 2.4:  The proportion of time spent in in the arena with the shock on." class="md-nav__link">
+    Fig. 2.4:  The proportion of time spent in in the arena with the shock on.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-25-consistent-and-conflict-trained-mice-use-space-differently-during-conflict-training-sessions" title="Fig. 2.5:  Consistent and conflict trained mice use space differently during conflict training sessions." class="md-nav__link">
+    Fig. 2.5:  Consistent and conflict trained mice use space differently during conflict training sessions.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initial-place-learning-is-not-as-strong-as-predicted-in-wt-mice" title="Initial place learning is not as strong as predicted in WT mice" class="md-nav__link">
+    Initial place learning is not as strong as predicted in WT mice
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-26-summary-of-punishment-and-estimates-of-memory-in-wt-and-fmr1-ko-mice" title="Fig. 2.6:  Summary of punishment and estimates of memory in WT and FMR1-KO mice." class="md-nav__link">
+    Fig. 2.6:  Summary of punishment and estimates of memory in WT and FMR1-KO mice.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fmr1-ko-do-not-show-evidence-of-using-place-memory-for-solving-the-task" title="FMR1-KO do not show evidence of using place memory for solving the task" class="md-nav__link">
+    FMR1-KO do not show evidence of using place memory for solving the task
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-27-fmr1-ko-mice-avoid-the-shock-zone-using-a-non-place-memory-strategy" title="Fig. 2.7:  FMR1-KO mice avoid the shock zone using a non-place memory strategy." class="md-nav__link">
+    Fig. 2.7:  FMR1-KO mice avoid the shock zone using a non-place memory strategy.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subtle-differences-in-avoidance-behavior-during-retention" title="Subtle differences in avoidance behavior during retention" class="md-nav__link">
+    Subtle differences in avoidance behavior during retention
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-28-during-recall-mice-avoid-the-shock-zone" title="Fig. 2.8:  During recall, mice avoid the shock zone." class="md-nav__link">
+    Fig. 2.8:  During recall, mice avoid the shock zone.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-29-ca3-ca1-synaptic-strength-is-not-altered-by-genotype-or-place-avoidance-training" title="Fig. 2.9:  CA3-CA1 synaptic strength is not altered by genotype or place avoidance training." class="md-nav__link">
+    Fig. 2.9:  CA3-CA1 synaptic strength is not altered by genotype or place avoidance training.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ca1-transcriptional-response-to-constitutive-fmr1-knockout" title="CA1 transcriptional response to constitutive FMR1 knockout" class="md-nav__link">
+    CA1 transcriptional response to constitutive FMR1 knockout
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-210-fmr1-ko-show-downregulation-of-calcium-ion-signaling-in-the-hippocampal-ca1-subfield" title="Fig. 2.10: FMR1-KO show downregulation of calcium ion signaling in the hippocampal CA1 subfield." class="md-nav__link">
+    Fig. 2.10: FMR1-KO show downregulation of calcium ion signaling in the hippocampal CA1 subfield.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reproduction-of-and-comparison-to-the-ceolin-et-al-2017-study" title="Reproduction of and comparison to the Ceolin et al. 2017 study" class="md-nav__link">
+    Reproduction of and comparison to the Ceolin et al. 2017 study
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-211-reanalysis-of-the-ceolin-et-al-2017-data-for-direct-comparison-of-results" title="Fig. 2.11: Reanalysis of the Ceolin et al. (2017) data for direct comparison of results." class="md-nav__link">
+    Fig. 2.11: Reanalysis of the Ceolin et al. (2017) data for direct comparison of results.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion" title="Discussion" class="md-nav__link">
+    Discussion
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#confirmed-no-systematic-pre-training-group-differences" title="Confirmed no systematic pre-training group differences" class="md-nav__link">
+    Confirmed no systematic pre-training group differences
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirmed-the-expression-of-avoidance-behavior-in-avoidance-trained-groups" title="Confirmed the expression of avoidance behavior in avoidance trained groups" class="md-nav__link">
+    Confirmed the expression of avoidance behavior in avoidance trained groups
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#determined-that-initial-place-learning-was-weaker-than-predicted-in-wild-type-mice" title="Determined that initial place learning was weaker than predicted in wild-type mice" class="md-nav__link">
+    Determined that initial place learning was weaker than predicted in wild-type mice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wt-and-fmr1-mice-use-different-strategies-to-solve-the-place-avoidance-task" title="WT and FMR1 mice use different strategies to solve the place avoidance task" class="md-nav__link">
+    WT and FMR1 mice use different strategies to solve the place avoidance task
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neural-transcriptomics" title="Neural-transcriptomics" class="md-nav__link">
+    Neural-transcriptomics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations" title="Limitations" class="md-nav__link">
+    Limitations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusions" title="Conclusions" class="md-nav__link">
+    Conclusions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" title="Acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../03_dissociation/" title="Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations" class="md-nav__link">
+      Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../conclusion/" title="Conclusion" class="md-nav__link">
+      Conclusion
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../cv/" title="Curriculum Vitae" class="md-nav__link">
+      Curriculum Vitae
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#active-place-avoidance" title="Active Place Avoidance" class="md-nav__link">
+    Active Place Avoidance
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-21-active-place-avoidance-task-with-conflict-training" title="Fig. 2.1:  Active place avoidance task with conflict training." class="md-nav__link">
+    Fig. 2.1:  Active place avoidance task with conflict training.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistical-analyses-of-behavior-and-synaptic-physiology" title="Statistical analyses of behavior and synaptic physiology" class="md-nav__link">
+    Statistical analyses of behavior and synaptic physiology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tissue-preparation-and-electrophysiology" title="Tissue preparation and electrophysiology" class="md-nav__link">
+    Tissue preparation and electrophysiology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rna-sequencing-and-bioinformatics" title="RNA-sequencing and bioinformatics" class="md-nav__link">
+    RNA-sequencing and bioinformatics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistics-and-data-visualization-of-rna-sequencing-data" title="Statistics and data visualization of RNA-sequencing data" class="md-nav__link">
+    Statistics and data visualization of RNA-sequencing data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archival-of-data-code-and-figures" title="Archival of data, code, and figures" class="md-nav__link">
+    Archival of data, code, and figures
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" title="Results" class="md-nav__link">
+    Results
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-22-hypothesis-and-predicted-behaviors" title="Fig. 2.2:  Hypothesis and predicted behaviors." class="md-nav__link">
+    Fig. 2.2:  Hypothesis and predicted behaviors.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-significant-pre-training-group-differences" title="No significant pre-training group differences" class="md-nav__link">
+    No significant pre-training group differences
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-23-no-group-differences-before-behavioral-manipulation" title="Fig. 2.3:  No group differences before behavioral manipulation." class="md-nav__link">
+    Fig. 2.3:  No group differences before behavioral manipulation.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-24-the-proportion-of-time-spent-in-in-the-arena-with-the-shock-on" title="Fig. 2.4:  The proportion of time spent in in the arena with the shock on." class="md-nav__link">
+    Fig. 2.4:  The proportion of time spent in in the arena with the shock on.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-25-consistent-and-conflict-trained-mice-use-space-differently-during-conflict-training-sessions" title="Fig. 2.5:  Consistent and conflict trained mice use space differently during conflict training sessions." class="md-nav__link">
+    Fig. 2.5:  Consistent and conflict trained mice use space differently during conflict training sessions.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initial-place-learning-is-not-as-strong-as-predicted-in-wt-mice" title="Initial place learning is not as strong as predicted in WT mice" class="md-nav__link">
+    Initial place learning is not as strong as predicted in WT mice
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-26-summary-of-punishment-and-estimates-of-memory-in-wt-and-fmr1-ko-mice" title="Fig. 2.6:  Summary of punishment and estimates of memory in WT and FMR1-KO mice." class="md-nav__link">
+    Fig. 2.6:  Summary of punishment and estimates of memory in WT and FMR1-KO mice.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fmr1-ko-do-not-show-evidence-of-using-place-memory-for-solving-the-task" title="FMR1-KO do not show evidence of using place memory for solving the task" class="md-nav__link">
+    FMR1-KO do not show evidence of using place memory for solving the task
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-27-fmr1-ko-mice-avoid-the-shock-zone-using-a-non-place-memory-strategy" title="Fig. 2.7:  FMR1-KO mice avoid the shock zone using a non-place memory strategy." class="md-nav__link">
+    Fig. 2.7:  FMR1-KO mice avoid the shock zone using a non-place memory strategy.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subtle-differences-in-avoidance-behavior-during-retention" title="Subtle differences in avoidance behavior during retention" class="md-nav__link">
+    Subtle differences in avoidance behavior during retention
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-28-during-recall-mice-avoid-the-shock-zone" title="Fig. 2.8:  During recall, mice avoid the shock zone." class="md-nav__link">
+    Fig. 2.8:  During recall, mice avoid the shock zone.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-29-ca3-ca1-synaptic-strength-is-not-altered-by-genotype-or-place-avoidance-training" title="Fig. 2.9:  CA3-CA1 synaptic strength is not altered by genotype or place avoidance training." class="md-nav__link">
+    Fig. 2.9:  CA3-CA1 synaptic strength is not altered by genotype or place avoidance training.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ca1-transcriptional-response-to-constitutive-fmr1-knockout" title="CA1 transcriptional response to constitutive FMR1 knockout" class="md-nav__link">
+    CA1 transcriptional response to constitutive FMR1 knockout
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-210-fmr1-ko-show-downregulation-of-calcium-ion-signaling-in-the-hippocampal-ca1-subfield" title="Fig. 2.10: FMR1-KO show downregulation of calcium ion signaling in the hippocampal CA1 subfield." class="md-nav__link">
+    Fig. 2.10: FMR1-KO show downregulation of calcium ion signaling in the hippocampal CA1 subfield.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reproduction-of-and-comparison-to-the-ceolin-et-al-2017-study" title="Reproduction of and comparison to the Ceolin et al. 2017 study" class="md-nav__link">
+    Reproduction of and comparison to the Ceolin et al. 2017 study
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-211-reanalysis-of-the-ceolin-et-al-2017-data-for-direct-comparison-of-results" title="Fig. 2.11: Reanalysis of the Ceolin et al. (2017) data for direct comparison of results." class="md-nav__link">
+    Fig. 2.11: Reanalysis of the Ceolin et al. (2017) data for direct comparison of results.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion" title="Discussion" class="md-nav__link">
+    Discussion
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#confirmed-no-systematic-pre-training-group-differences" title="Confirmed no systematic pre-training group differences" class="md-nav__link">
+    Confirmed no systematic pre-training group differences
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirmed-the-expression-of-avoidance-behavior-in-avoidance-trained-groups" title="Confirmed the expression of avoidance behavior in avoidance trained groups" class="md-nav__link">
+    Confirmed the expression of avoidance behavior in avoidance trained groups
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#determined-that-initial-place-learning-was-weaker-than-predicted-in-wild-type-mice" title="Determined that initial place learning was weaker than predicted in wild-type mice" class="md-nav__link">
+    Determined that initial place learning was weaker than predicted in wild-type mice
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wt-and-fmr1-mice-use-different-strategies-to-solve-the-place-avoidance-task" title="WT and FMR1 mice use different strategies to solve the place avoidance task" class="md-nav__link">
+    WT and FMR1 mice use different strategies to solve the place avoidance task
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neural-transcriptomics" title="Neural-transcriptomics" class="md-nav__link">
+    Neural-transcriptomics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations" title="Limitations" class="md-nav__link">
+    Limitations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusions" title="Conclusions" class="md-nav__link">
+    Conclusions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" title="Acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism</h1>
+                
+                <h2 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">&para;</a></h2>
+<p>Fragile X syndrome is the most prevalent form of genetically inherited intellectual disability and is associated with autism spectrum disorder in 40% of individuals.  The syndrome is caused by a mutation in the FMR1 gene, which encodes fragile x mental retardation protein (FMRP), a protein that regulates the local translation of a subset of mRNAs at synapses. In the absence of FMRP, dysregulated mRNA translation can lead to altered synaptic function, loss of protein synthesis-dependent synaptic plasticity, and impaired cognitive discrimination. To better understand the effects of silencing the FMR1 gene, I analyzed learning behavior and hippocampal gene expression.  I confirmed that genetic knock out of FMR1 (FMR1-KO) alters the expression of avoidance behavior in a way that indicates that FMR1-KO mice do not use hippocampal place memory to avoid the shock zone. Contrary to previously published results, initial learning was not very robust during this experiment, possibly due to working in a “noisy” environment where environmental distractions made learning difficult. I identified 20 genes whose expression in the CA1 hippocampal subfield was altered by constitutive knockout of FMR1. Using a meta-analysis with published data, I found a consistent and reproducible pattern of downregulation of expression Efcab and Sperpina3n and altered calcium signaling in the CA1 subfield of the hippocampus. These results suggest that despite the proximal effects of FMR1 knockout being on translation dysregulation, loss of FMRP also leads to transcriptional dysregulation, involving multiple genes that contribute to autism spectrum disorder. Additional research is needed to understand how the loss of FMR1 activity affects hippocampal-dependent memory use.</p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>Fragile X syndrome is the most prevalent form of genetically inherited intellectual disability89. This X-linked disorder is caused by mutations in the untranslated region of the FMR1 gene resulting in a CGG trinucleotide repeat expansion higher than 200 that gives rise to hypermethylation and transcriptional silencing90. Thus, patients with fragile X syndrome do not make the fragile X mental retardation protein (FMRP). Autistic-like features and problems with working and short-term memory are frequent in patients with fragile X syndrome91. Impaired memory discrimination is thought to lead to exaggerated responses to environmental changes in autistic patients. Autism spectrum disorder is a genetically heterogeneous condition. While many genes predisposing an individual with autism spectrum disorder have been identified, an understanding of the causal disease mechanism remains elusive92. A deeper understanding of the molecular interaction between fmr1 in a brain region-specific manner might shed light on phenotypic variation. </p>
+<p>FMRP regulates the local translation of a subset of about 400 mRNAs at synapses93. In the absence of FMRP, dysregulated mRNA translation leads to altered synaptic function and loss of protein synthesis-dependent synaptic plasticity89. Voineagu et al. 2011 found that striking regional patterns of attenuated gene expression in the frontal and temporal cortex, suggesting abnormalities in cortical patterning94. FMR1-KO mice95 show that cognitive discrimination deficits are prominent, but learning and memory themselves appear unimpaired55. Cognitive discrimination requires distinguishing between similar but distinct experiences.</p>
+<p>To better understand the effects of silencing the FMR1 gene, I analyzed hippocampal gene expression and cognitive behavior including learning memory and cognitive discrimination. I investigated cognitive discrimination by changing the location of a mild shock, requiring the subjects to distinguish between the current and prior locations of shock. I hypothesized that FMR1-KO would alter cognitive discrimination performance and the activity of hundreds of genes in the CA1 subfield of the hippocampus. 
+To evaluate these predictions, I used an active place avoidance task to measure the behavioral correlates of learning, memory, and cognitive discrimination. Then, I analyzed ex vivo hippocampus electrophysiological data to estimate changes in CA3-CA1 synaptic strength. Next, I identified patterns of differential gene expression in the CA1 subfield as a result of constitutive FMR1 knockout. Finally, I reproduced the finding of a recently published96 study of gene expression in the FMR1-KO hippocampus, and I compared my reproduction of the Ceolin study to my own finding to identify robust patterns of FMR1 dependent gene expression in the CA1 subfield of the hippocampus. This approach provides a blueprint for investigation of the behavior, physiology, and molecular consequences of FMRP loss in a rodent model. The data, analysis tools, and results are publically available for readers to investigate independently97.  </p>
+<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<p><em>All data and analyses can be found at <a href="https://github.com/raynamharris/FMR1CA1rnaseq">https://github.com/raynamharris/FMR1CA1rnaseq</a>.</em></p>
+<p>All animal care and use procedures comply with the Public Health Service Policy on Humane Care and Use of Laboratory Animals and were approved by the New York University Animal Welfare Committee and the Marine Biological Laboratory Institutional Animal Care and Use Committee.  Male C57BL/6J wild-type and Fragile X mental retardation protein knockout mice (FMR1-KO) were housed on a 12:12 (light: dark) cycle with continuous access to food and water in home cages with up to five littermates. </p>
+<h3 id="active-place-avoidance">Active Place Avoidance<a class="headerlink" href="#active-place-avoidance" title="Permanent link">&para;</a></h3>
+<p>I used the active place avoidance task with conflict learning to observe initial avoidance learning and cognitive discrimination in WT and FMR1-KO mice54,61,36. The behavioral paradigm was explicitly designed to constrain animal behavior to provide hypothesis-driven insight into the role of FMRP in cognition. In this task, yoked mice and trained mice experience the same physical world, but they have a different internal representation of the world as expressed by their spatial use of the active place avoidance arena. The use of consistent and conflict training allows the experimenter to tease apart initial avoidance learning and cognitive discrimination.</p>
+<p>All mice were exposed to nine sessions in the active place avoidance arena (Fig. 2.1). Mice were placed on an elevated circular (40 cm diameter) arena that rotated at 1 rpm. The arena wall was transparent and thus contained the mice to the arena while allowing them to observe the environment. The location of the mouse in the arena was determined by a PC-controlled video tracking system (Bio-Signal Group Corp.) using an overhead video camera. Consistently trained mice in the active place avoidance task are conditioned to avoid mild shocks (constant current 0.2 mA, 60 Hz, 500 ms) that can be localized by visual cues in the environment. Yoked mice are delivered a sequence of unavoidable shocks that reproduces the time series of shocks received by the trained mice; however, the shocks delivered to the mice cannot be localized to any consistent places in the environment. All sessions in the arena last 10 minutes. Mice were allowed to become familiar with walking on the rotating arena during a 10 min ‘Pre-training session'. Then mice undergo three, 10-min avoidance-training sessions separated by a two h inter-trial interval.  Mice are returned to their home cage overnight. The next day, mice are subjected to a 10-min ‘Retest session’ where the shock is in the same location as before. For the next three training sessions, the shock zone remains in the same place for consistently trained animals, but it is rotated 180° for the conflict-trained mice. The next day, all mice are subjected to a 1-min “Retention session” with the shock off. Littermates were randomly assigned to one of our treatment groups (Fig 2.1).</p>
+<p><img alt="fig1" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/21_overview.png?raw=true" /></p>
+<h4 id="fig-21-active-place-avoidance-task-with-conflict-training">Fig. 2.1:  Active place avoidance task with conflict training.<a class="headerlink" href="#fig-21-active-place-avoidance-task-with-conflict-training" title="Permanent link">&para;</a></h4>
+<p><em>Mice were assigned to one of four groups: consistently-trained (red), yoked-consistent (dark grey), conflict-trained (peach), or yoked-conflict (light grey). Mice were placed on the rotating arena (1 rpm) for training sessions that lasted 10 min and was separated by 2-h intersession interval or overnight (~17 h). The physical conditions are identical for all mice during pre-training and retention. Sample sizes for each treatment group and genotype are shown on the bottom right.</em></p>
+<h3 id="statistical-analyses-of-behavior-and-synaptic-physiology">Statistical analyses of behavior and synaptic physiology<a class="headerlink" href="#statistical-analyses-of-behavior-and-synaptic-physiology" title="Permanent link">&para;</a></h3>
+<p>Place avoidance was evaluated by end-point measures output by TrackAnalysis software (Bio-Signal Group Corp., Acton, MA). Forty quantitative variables were measured that capture the animals' use of space and time. I evaluated the reduction in entrances into the shock zone to estimate place avoidance. A three-way ANOVA with subsequent Tukey Honest Significant Differences (Tukey HSD) tests were carried out to determine influences of Genotype * Treatment Group * Training Session and the Genotype * Treatment Group interaction on the number of entrances. A Tukey Honest Significant Differences (Tukey HSD) test was carried out to determine the component influence of Treatment Groups. A two-way ANOVA was carried out to determine the influence of Genotype * Treatment Group and their interaction on CA3-CA1 synaptic strength, as measured by the maximum field excitatory post-synaptic potential (fEPSP) slope. </p>
+<h3 id="tissue-preparation-and-electrophysiology">Tissue preparation and electrophysiology<a class="headerlink" href="#tissue-preparation-and-electrophysiology" title="Permanent link">&para;</a></h3>
+<p>Thirty minutes after the last cognitive training session, mice were anesthetized with 2% (vol/vol) isoflurane for 2 minutes and decapitated. Transverse 300 μm brain slices were cut using a vibratome (model VT1000 S, Leica Biosystems, Buffalo Grove, IL) and incubated at 36°C for 30 min and then at room temperature for 90 min in oxygenated artificial cerebrospinal fluid (aCSF in mM: 125 NaCl, 2.5 KCl, 1 MgSO4, 2 CaCl2, 25 NaHCO3, 1.25 NaH2PO4 and 25 Glucose)64,65. </p>
+<p>Field excitatory postsynaptic potentials (fEPSP) from the CA3-CA1 input (Stratum Radiatum) were obtained in response to Schaffer collateral stimulation with bipolar electrodes. Stimulus-response relationships between input voltage stimulation and fEPSP slope were generated at increasing voltage stimulations at Stratum Radiatum65.</p>
+<h3 id="rna-sequencing-and-bioinformatics">RNA-sequencing and bioinformatics<a class="headerlink" href="#rna-sequencing-and-bioinformatics" title="Permanent link">&para;</a></h3>
+<p>The CA1 subfields were microdissected using a 0.25 mm punch (Electron Microscopy Systems) and a Zeiss dissecting scope. RNA was isolated using the Maxwell 16 LEV RNA Isolation Kit (a donation from Promega, Madison, WI). RNA libraries were prepared by the Genomic Sequencing and Analysis Facility at the University of Texas at Austin and sequenced on the Illumina HiSeq platform. Raw reads were transferred from the GSAF to the Stampede Cluster at the Texas Advanced Computing Facility (TACC) via Amazon Cloud. Quality of the data was checked using the program FASTQC66 and visualized using MultiQC67 (Fig. A3). Low-quality reads and contaminating adapter sequences were removed using the program Cutadapt70. I used Kallisto68 for pseudo-alignment of reads and transcript counting using the-the Gencode M11 mouse transcriptome69. </p>
+<h3 id="statistics-and-data-visualization-of-rna-sequencing-data">Statistics and data visualization of RNA-sequencing data<a class="headerlink" href="#statistics-and-data-visualization-of-rna-sequencing-data" title="Permanent link">&para;</a></h3>
+<p>Transcript counts from Kallisto were imported into R62 and aggregated to yield gene counts using the ‘gene’ identifier from the Gencode transcriptome. I used DESeq271 to normalize and quantify gene counts with a false discovery corrected (FDR) p-value &lt; 0.1. The DESeq2 model included only genotype (WT vs. FMR1-KO) since all samples came from the CA1 subfield of the yoked-consistent treatment group. Hierarchical clustering by correlation was used to visualize the patterns of differential gene expression71–76. I used ggplot276, cowplot75, pheatmap78, viridis79, and colorblindr80 to visualize the results. Multi-panel figures were created using Adobe Illustrator.</p>
+<h3 id="archival-of-data-code-and-figures">Archival of data, code, and figures<a class="headerlink" href="#archival-of-data-code-and-figures" title="Permanent link">&para;</a></h3>
+<p>I archived the raw sequence data and intermediate data files in NCBI's Gene Expression Omnibus Database (accession GSE100225). The data, code, and results are publically available on GitHub , with a stable archived at Zenodo 97. I also used publically available dataset (accession GSE94559) of gene counts from the Ceolin et al. 201796 study on CA1 pyramidal neuron gene expression in FMR1-KO mice.</p>
+<h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
+<p>The goal of this research was to identify transcriptional changes in FMR1-KO mice that might explain impaired memory discrimination. I used the active place avoidance task with conflict learning to observe initial avoidance learning and cognitive discrimination in WT and FMR1-KO mice. Given that FMRP is a translational modifier, little research has been done to investigate transcriptional changes upstream that might occur through regulatory feedback processes. In the Active Place Avoidance Task, place learning and memory are observed by examining multiple aspects of behavior (see Chapter 1). I focused on the proportion of time spent in different quadrants of the arena, the number of entrances into the shock zone, and path to the first entrance.</p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/20_hypotheses.png?raw=true" /></p>
+<h4 id="fig-22-hypothesis-and-predicted-behaviors">Fig. 2.2:  Hypothesis and predicted behaviors.<a class="headerlink" href="#fig-22-hypothesis-and-predicted-behaviors" title="Permanent link">&para;</a></h4>
+<p>Expected behavioral differences between groups over time.</p>
+<h3 id="no-significant-pre-training-group-differences">No significant pre-training group differences<a class="headerlink" href="#no-significant-pre-training-group-differences" title="Permanent link">&para;</a></h3>
+<p>First, I examined the data to determine whether the groups were different before experiencing shock. I found that all groups where equal in the proportion of time spent in four quadrants of the arena (Fig. 2.2A). There was no significant effect of genotype or treatment group on pre-training proportion of time spent in the shock zone (mean = 0.24; genotype: F(1,38) = 0.438, p = 0.512; group: F(3,38) = 0.438, p = 0.512), clockwise (mean = 0.26; genotype: F(1,38) = 0.153, p = 0.698; group: F(3,38) = 0.507, p = 0.680), opposite (mean = 0.21,; genotype: F(1,38) = 0.008, p = 0.929; group: F(3,38) = 1.051, p = 0.381), or counter clockwise (mean = 0.28, ; genotype: F(1,38) = 0.012, p = 0.913; group: F(3,38) = 0.979, p = 0.413). There was also no significant effect of genotype, training, or the interaction on pre-training number of entrances (Fig. 2.2B) or path to the first entrance (Figure 2.2C), which are the two measures that will be used shortly to evaluate the avoidance strategy that mice are using. There was no significant effect of genotype or training on the number of entrances (mean = 28.58, genotype: F(1,35) = 0.106, p = 0.747; training: F(3,35)= 1.717, p = 0.181) or path to the 1st entrance (mean = 0.42, genotype: F(1,35) = 0.165, p = 0.92; training: F(3,35)= 1.583, p = 0.211).</p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/22_before.png?raw=true" />  </p>
+<h4 id="fig-23-no-group-differences-before-behavioral-manipulation">Fig. 2.3:  No group differences before behavioral manipulation.<a class="headerlink" href="#fig-23-no-group-differences-before-behavioral-manipulation" title="Permanent link">&para;</a></h4>
+<p><em>A) All treatment groups spend ~ 25% of their time equally across four quadrants of the arena during the pre-training session (pink: future shock zone, dark green: clockwise, green: opposite the shock zone, light green: counterclockwise). B) Pre-training number of entrances into the shock zone and C) path to the first entrance are not significantly different between treatment groups and genotypes (dark grey: yoked-consistent, red: consistently-trained, light grey: yoked-conflict, peach: conflict-trained).
+Training has more substantial effect than genotype on avoidance behaviors
+After confirming that the proportion of time spent in each quadrant was roughly 0.25 for each group during pre-training, I asked if there were group differences in the distribution of time spent during the training, retest, and/or conflict sessions (Fig. 2.3). Using a linear model, I found that time spent in the shock zone is not significantly influenced by genotype (F(1,286) = 1.49, p = 0.22), but time spent in the shock zone is influenced by training (F(2,286) = 128.58, p &lt; 0.001). This linear model with training, genotype, and the interaction explains 73% of the variation in time spent in the shock zone. As expected, among only the yoked groups, there is no effect of genotype or training on time spent in the area that corresponds to the shock zone in the trained groups (genotype: F(1,80) = 0.040, p = 0.84, training: (F(1,80) = 3.438, p = 0.067)).</em></p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/23_proportion.png?raw=true" /> </p>
+<h4 id="fig-24-the-proportion-of-time-spent-in-in-the-arena-with-the-shock-on">Fig. 2.4:  The proportion of time spent in in the arena with the shock on.<a class="headerlink" href="#fig-24-the-proportion-of-time-spent-in-in-the-arena-with-the-shock-on" title="Permanent link">&para;</a></h4>
+<p><em>The average proportion of time spent in each 60 degree quadrant of the arena was calculated or each group for each session with the shock was on (T1, T2, T3: training sessions 1-3; R1: retest; C1, C2, C3: conflict training sessions; pink: future shock zone; dark green: clockwise; green: opposite the shock zone; light green: counter clockwise). For trained mice, mice are expected to spend very little time in the shock zone (&lt;0.4%) and to equally split their time between the three remaining quadrants (~32% each). For yoked mice, time spent is expected to be evenly distributed across quadrants (~25% each).
+The differences between the conflict and consistently trained mice are apparent during the three conflict training sessions (Fig 2.4). Both consistent and conflict groups avoid the shock zone, spending less than 2% of their time in the shock zone, but there is no difference between groups (mean = 0.019, F(1,78) = 1.2166, p = 0.27). Consistently trained groups spend significantly less time clockwise of the shock zone than conflict trained groups (F(1,78) = 23.3405, p &lt; 0.001). Consistently trained groups spend more time in the counterclockwise zone than conflict trained mice (F (1,78) = 8.2837, p = 0.005).</em></p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/24_spaceuse.png?raw=true" /></p>
+<h4 id="fig-25-consistent-and-conflict-trained-mice-use-space-differently-during-conflict-training-sessions">Fig. 2.5:  Consistent and conflict trained mice use space differently during conflict training sessions.<a class="headerlink" href="#fig-25-consistent-and-conflict-trained-mice-use-space-differently-during-conflict-training-sessions" title="Permanent link">&para;</a></h4>
+<p><em>A) During the conflict training sessions, consistent and conflict mice both avoid the shock zone, but there is not a difference between groups. B) Consistently trained mice spend significantly less time in space clockwise to the shock zone as indicated by the A and B in small font above the corresponding group. C) All groups spend more time on average in the space opposite the shock zone, but there are no group differences. D) Consistently trained mice spend more time in the counterclockwise zone than conflict mice as indicated by the A and B in small font above the corresponding group. Legend) dark grey: yoked-consistent, red: consistently-trained, light grey: yoked-conflict, peach: conflict-trained.</em></p>
+<h3 id="initial-place-learning-is-not-as-strong-as-predicted-in-wt-mice">Initial place learning is not as strong as predicted in WT mice<a class="headerlink" href="#initial-place-learning-is-not-as-strong-as-predicted-in-wt-mice" title="Permanent link">&para;</a></h3>
+<p>After establishing place avoidance behavior in the trained groups, I next investigated the extent to which shock (or punishment) and memory contributed to place avoidance by analyzing the number of entrances to the shock zone and the path to 1st entrance (Fig. 2.5). I unexpectedly found evidence that mice were not using memory by analysis of path to the first entrance, but instead they were relying on a non-spatial strategy to avoid the shock zone that was dependent on the shock punishment, which was assessed by the number of entrances into the shocked zone by the trained groups. This was unexpected given the results of Chapter 1 where using these measures of behavior, I observed a strong signature of learning and place avoidance. There was no effect of genotype on the number of entrances into the shock zone at any given time point (Fig. 2.5B, C). However, there was an effect of genotype on the path to first entrance during the retest, but this appears to be driven by unexplained avoidance behavior in a yoked group (Fig. 2.5 E, F). At this level of analysis, the evidence for place learning is weak, certainly not as robust in WT or FMR1-KO mice.</p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/25_expectedreal.png?raw=true" /></p>
+<h4 id="fig-26-summary-of-punishment-and-estimates-of-memory-in-wt-and-fmr1-ko-mice">Fig. 2.6:  Summary of punishment and estimates of memory in WT and FMR1-KO mice.<a class="headerlink" href="#fig-26-summary-of-punishment-and-estimates-of-memory-in-wt-and-fmr1-ko-mice" title="Permanent link">&para;</a></h4>
+<p><em>A) Expected results for number of entrances based on data from Chapter 1 and Radwan et al.55 B,C) Consistent and conflict trained mice from WT and FMR1-KO groups to make fewer entrances into the shock zone than yoked-mice; however, the pattern does not exactly match the expected results. D) Expected results for number of entrances based on data from Chapter 1 and Radwan et al.55  E, F) Consistent and conflict trained mice from WT FMR1-KO do not show evidence of place memory until after the first day of initial training. This pattern does also not mirror the expected results. Legend) Pre: pre-training; T1, T2, T3: training sessions 1-3; C1, C2, C3: conflict training sessions; Reten: retention session; dark grey: yoked-consistent, red: consistently-trained, light grey: yoked-conflict, peach: conflict-trained. The pie-shaped shaded regions of the inserts highlight the region used to count the number of entrances.</em></p>
+<h3 id="fmr1-ko-do-not-show-evidence-of-using-place-memory-for-solving-the-task">FMR1-KO do not show evidence of using place memory for solving the task<a class="headerlink" href="#fmr1-ko-do-not-show-evidence-of-using-place-memory-for-solving-the-task" title="Permanent link">&para;</a></h3>
+<p>The conflict training session in the Active Place Avoidance Task allows us to test two hypotheses. The first, fundamental hypothesis is that the mice are using a strategy that utilizes place memory to avoid shock. If, and only if, they are using place memory, then the conflict task allows us to assess how well they discriminate between memory for the initial location of shock and the current relocated position of shock (Fig. A4).
+The rationale is as follows: If the mice are using place memory to avoid the initial location of shock, then they will have learned the specific location of shock. By avoiding the location itself, they avoid shock without experiencing it. The behavior would be characterized by avoidance of the shock location rather than escape of shock itself. Alternatively, the mice could be avoiding shock by escaping after receiving shock rather than by using memory of the location to avoid it. Here their behavior would be characterized by escape but not by avoidance. I distinguish between these two possibilities by measuring the number of entrances, the length of the path to first entrance, and the probability of being in the shock zone? If the mice are using place memory, then moving the shock zone to another place should make their memory no longer adaptive and their ability to avoid shock should be disturbed. Alternatively, if they were merely escaping shock without regard for exactly where it is, then they should not be disturbed by changing the shock zone at all as their strategy of effectively responding to shock should be equally effective after the shock was relocated to the opposite part of the environment, as in the conflict sessions (Fig. A4). </p>
+<p>There was a clear difference in the number of entrances by WT consistent and WT conflict trained groups, indicating first that the WT mice used place memory to avoid shock during the initial training trials. Because the number of entrances decreased during conflict training, this indicates that WT mice used cognitive discrimination to distinguish between their memory for the initial location of shock and their memory for the current location of shock (Fig 2.5B, 2.6A, 2.6B. In contrast, the FMR1-KO consistent and the FMR1-KO conflict groups did not differ after the shock location was relocated for the conflict group, and the FMR1-KO conflict group did not change their measures of place avoidance after the shock was relocated. The inability to observe these difference, provide clear evidence that FMR1-KO consistent mice do not use place memory to avoid shock in our conditions, and thus their cognitive discrimination abilities cannot be assessed (Fig 2.5C, Fig 2.6 A, B). Whereas, the WT mice demonstrate clear evidence of place learning and cognitive discrimination. </p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/26_shock.png?raw=true" /></p>
+<h4 id="fig-27-fmr1-ko-mice-avoid-the-shock-zone-using-a-non-place-memory-strategy">Fig. 2.7:  FMR1-KO mice avoid the shock zone using a non-place memory strategy.<a class="headerlink" href="#fig-27-fmr1-ko-mice-avoid-the-shock-zone-using-a-non-place-memory-strategy" title="Permanent link">&para;</a></h4>
+<p><em>A, B) WT but not FMR1-KO consistent mice make fewer entrances into the shock zone than conflict mice on C1. C, D) Path to first entrance on C2 is no different between groups indicating a lack of evidence for the use of place memory. Groups are shown in dark grey: yoked-consistent, red: consistently-trained, light grey: yoked-conflict, peach: conflict-trained, dashed lines: FMR1-KO, solid lines: WT.</em></p>
+<p>For this statistical analysis, I analyzed the three conflict sessions (T4/C1, T5/C2, and T6/C3) using a three-way ANOVA with Tukey Honest Significant Differences (Tukey HSD) test to determine the influence of Genotype * Treatment Group * Training Session and the interaction on the number of entrances during the active place avoidance task with the conflict training. As expected Treatment Group had a highly significant effect on number of entrances [F(1, 69)= 41.3, p &lt; 0.001]. The interaction between the effects of Genotype and Training Group was not significant [F(1, 69)= 0.009, p = 0.924]. While there is a significant effect of genotype alone on the number of entrances [F(1, 69)= 8.17, p = 0.005], there was not a significant difference between WT conflict and FMR1-KO conflict (p = 0.78) or between WT yoked-conflict and FMR1-KO yoked-conflict (p = 0.93).</p>
+<h3 id="subtle-differences-in-avoidance-behavior-during-retention">Subtle differences in avoidance behavior during retention<a class="headerlink" href="#subtle-differences-in-avoidance-behavior-during-retention" title="Permanent link">&para;</a></h3>
+<p>Finally, I asked if the genotypes differed during the retention test when the shock is off which allows assessment of memory retention. Since the shock is off, the animals will not exhibit any escape behavior. Thus, avoidance of the shock zone can be attributed to place memory. I found that trained mice continue to spend less time in the former shock zone quadrant than yoked mice, but their path to the shock zone is not significantly longer indicating a place response driven by memory in the trained groups compared to the yoked group before the possibility of extinction learning (Fig. 2.7). Extinction learning is logically only assessed after the mice experience there is no shock in the place they had expected it. The time spent in the shock zone during the retention session assesses both the strength of the place memory and extinction of the condition avoidance behavior. It was affected by the training group (F(3,42) = 5.5420, p = 0.00269) but not by genotype (F(1,42) = 0.043, p = 0.837), and this effect is driven by the difference between the consistent and yoked-consistent (p = 0.00684) but not between conflict and yoked-conflict groups (p = 0.125)(Fig. 2.7A). It is possible that this variation in the yoked animals obscures our examination of the memory in the trained animals.</p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/27_recall.png?raw=true" /></p>
+<h4 id="fig-28-during-recall-mice-avoid-the-shock-zone">Fig. 2.8:  During recall, mice avoid the shock zone.<a class="headerlink" href="#fig-28-during-recall-mice-avoid-the-shock-zone" title="Permanent link">&para;</a></h4>
+<p><em>A) Trained mice spend less time in the shock zone than their yoked counterparts. B) They also make fewer entrances into the shock zone, C) but their path to the shock zone is not significantly longer. Legend) dark grey: yoked-consistent, red: consistently-trained, light grey: yoked-conflict, peach: conflict-trained, pink: future shock zone, dark green: clockwise, green: opposite the shock zone, light green: counterclockwise.</em></p>
+<p>Consistently trained mice also make fewer entrances into the shock zone compared to mice in the yoked group in both WT and FMR1-KO groups (Fig. 2.7B), but their path to the shock zone is not significantly longer (Fig. 2.7C) which provides conflicting evidence about whether or not the mice are using place memory. The conflict trained FMR1-KO mice do not make a significantly fewer number of entrances into the shock zone, which provides more evidence that they do not have a place memory. The results of a two-way ANOVA followed by Tukey HSD was are visualized on Figure 2.C.</p>
+<p>Consistent with the evidence for poor place memory, I found no change in synaptic strength at the CA3-CA1 synapse (as measured by maximum fEPSP slope) due to genotype or training (Fig. 2.8). Genotype alone was not significant [F(1, 48)= 0.133, p = 0.738], and interaction between Genotype and Training Group was not significant [F(3, 48)= 0.304, p = 0.822]. Thus, even though Calmodulin activity is reduced, synaptic strength is not diminished.</p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/28_ephys.png?raw=true" /></p>
+<h4 id="fig-29-ca3-ca1-synaptic-strength-is-not-altered-by-genotype-or-place-avoidance-training">Fig. 2.9:  CA3-CA1 synaptic strength is not altered by genotype or place avoidance training.<a class="headerlink" href="#fig-29-ca3-ca1-synaptic-strength-is-not-altered-by-genotype-or-place-avoidance-training" title="Permanent link">&para;</a></h4>
+<p><em>The maximum fEPSP slope is no difference between groups indicating that neither training or genotype influence synaptic strength at CA3-CA1 synapses. WT: filled violin plot, FMR1-KO, open violin plots, dark grey: yoked-consistent, red: consistently-trained, light grey: yoked-conflict, peach.</em></p>
+<h3 id="ca1-transcriptional-response-to-constitutive-fmr1-knockout">CA1 transcriptional response to constitutive FMR1 knockout<a class="headerlink" href="#ca1-transcriptional-response-to-constitutive-fmr1-knockout" title="Permanent link">&para;</a></h3>
+<p>Given the lack a strong and robust signal of hippocampus-dependent place learning, I elected not to continue looking for the molecular underpinnings of impaired cognitive functions in the FMR1-KO mouse. Instead, I decided to investigate whether there are molecular differences between the WT and FMR1-KO mice when the internal representations of the world are equivalent, as far as I can tell from behavior. Thus, I sequenced the transcriptome the CA1 subfield of the dorsal hippocampus from the mice in the yoked-consistent treatment group (Fig. 2.9A).</p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/29_rnaseq.png?raw=true" /></p>
+<h4 id="fig-210-fmr1-ko-show-downregulation-of-calcium-ion-signaling-in-the-hippocampal-ca1-subfield">Fig. 2.10: FMR1-KO show downregulation of calcium ion signaling in the hippocampal CA1 subfield.<a class="headerlink" href="#fig-210-fmr1-ko-show-downregulation-of-calcium-ion-signaling-in-the-hippocampal-ca1-subfield" title="Permanent link">&para;</a></h4>
+<p><em>A) The sample size for RNA-sequencing is 8 WT and 8 FMR1-KO tissues from the CA1 subfield from only the consistent-yoke group. B) Hierarchical clustering of differentially expressed genes shows that only 13 genes are upregulated in response to FMR1KO while 16, including FMR1, were downregulated in the CA1 subfield of yoked-consistent mice. C) Down-regulation of ion channel binding, receptor binding, calcium binding, metal ion membrane transport, calcium ion transmembrane transporter, delayed rectifier potassium channel, channel, cation channel, channel regulator, calmodulin binding, PDZ domain binding, structural molecular, and structural constituent of ribosome. On the plot, different fonts are used to indicate significance (bold: p &lt; 0.01, regular: p &lt; 0.05) and color indicates enrichment with either up (red) or down (blue) regulated genes. The fraction next to GO category name indicates the fraction of "good" genes that exceed the p-value cutoff.</em></p>
+<p>RNA was isolated from a tissue sample (250 μm in diameter x 300 μm thickness) from the CA1 subfield of the dorsal hippocampus. Transcriptomes were constructed from mRNA-enriched Illumina libraries; transcript levels were estimated with Kalliso18 using the Gencode Mouse reference transcirptome19, statistical significance genes and molecular functions were inferred using DESeq221 and GO_MWU30, respectively. I identified 20 genes whose expression in the CA1 subfield was altered by the constitutive elimination of FMRP (Fig 2.9B). About half of these genes are upregulated in FMR1-KO mice (Apc2, Arel1, Brf1, Cry, Fibcd1, Grin1, Ncdn, Pnmal2, Prpf8, Sidt1, Slc8a2, Tnik, and Wipf3) while the other half are down-regulated (Cacna1g, Car4, Ccnd1, Cpne7, Dlx1, Efcab6, Fgfr1, FMR1, Kcnt1, Mtus1, Plat, Serpina3n, Slc29a4, Sstr3, and Xbp1) (Fig 2.9B).</p>
+<p>Next, I used an analysis of gene ontology to identify pattern of enrichment or depletion of molecular activity. In response to FMR1-KO, I found a depletion of activity related to ion channel binding, receptor binding, calcium binding, metal ion membrane transport, calcium ion transmembrane transporter, delayed rectifier potassium channel, channel, cation channel, channel regulator, calmodulin binding, PDZ domain binding, structural molecular, and structural constituent of ribosome. The results suggest an overall disruption of calcium signaling (Fig 2.9C). </p>
+<h3 id="reproduction-of-and-comparison-to-the-ceolin-et-al-2017-study">Reproduction of and comparison to the Ceolin et al. 2017 study<a class="headerlink" href="#reproduction-of-and-comparison-to-the-ceolin-et-al-2017-study" title="Permanent link">&para;</a></h3>
+<p>Next, I reanalyzed public data in order to reproduce the results from the study by Ceolin et al. 2017, which used fluorescence labeling to selectively identify and sequence pyramidal neurons in the CA1 subfield of the hippocampus from WT and FMR1-KO mice (Fig 2.10A). My reanalysis of their data produced a very similar pattern of gene expression and list of differentially expressed genes with roughly equal up and downregulation of expression. Then, I asked how many of their differentially expressed genes are differentially expressed in my study.  I found that downregulation of expression of Efcab6 and Serpina3n was consistent in both the Ceolin data and in my data (Fig 2.10C). </p>
+<p><img alt="fig" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/210_ceolin.png?raw=true" /></p>
+<h4 id="fig-211-reanalysis-of-the-ceolin-et-al-2017-data-for-direct-comparison-of-results">Fig. 2.11: Reanalysis of the Ceolin et al. (2017) data for direct comparison of results.<a class="headerlink" href="#fig-211-reanalysis-of-the-ceolin-et-al-2017-data-for-direct-comparison-of-results" title="Permanent link">&para;</a></h4>
+<p><em>A) Graphical representation of the samples for the Ceolin et al. (2017) study examining CA1 expression in WT and FMR1-KO mice. Ceolin and colleagues use immunohistochemistry to stain for FMRP (pink) or hemagglutinin (cyan) in the CA1 subfield. B) Analysis showing that 39 of top 45 most significant (p &lt; 0.01) genes in my reproduction of the analysis, make up over half of the top most significant (p &lt; 0.05) genes of from the Ceolin study. However, only 2 genes from the reproduction of the Ceolin study were also found to be differentially anlaysis in my analysis (described in Fig 2.9).  C) Reproduction: This volcano plot shows that my analysis of the Ceolin et al count data identified 88 genes that are up-regulated in FMR1-KO mice and the 146 genes that are up-regulated in WT mice a p &lt; 0.05. Comparison: The gene expression and significance values from the Ceolin data are color-coded by the levels of significance from my results described in Fig 2.9. In other words, the results from Fig 2.9 are projected on top of the results from the Ceolin study. Four genes that are upregulated in WT in my study were also upregulated in my reproduction of the Ceolin data.D) Hierarchical clustering shows the names and expression patterns of those same significant genes. D) Gene Ontology analysis showing a very similar pattern of depletion of calcium channel activity as was shown in Fig. 2.8). In contrast, Ceolin detected enrichment of ribosomal processes in response to FMR1-KO in CA1 pyramidal neurons. Legend) Teal: Enriched in FMR1-KO, pink: enriched in WT, grey: genes with insignificant expression, black: genes whose expression was not calculated in my original analysis.</em></p>
+<p>Next, I asked whether the genes that I calculated to be significantly different were also identified by Ceolin as significantly different. I determined that 39 of top 45 most significant (p &lt; 0.01) genes in my analysis make up over half of the most significant (p &lt; 0.05) genes of from the Ceolin study (Fig 2.10B). Of my list of "replicated" 39 differentially expressed genes, two genes (Serpina3a and Efcab6) were also identified in my analysis of differential expression (Fig. 2.10D). My GO analysis highlighted different but also overlapping patterns. The Ceolin study highlights the molecular function enriched pathways in FMR1-KO mice, whereas my analysis provided stronger evidence for a suppression of calcium receptor-related functions (Fig 2.10E). </p>
+<h2 id="discussion">Discussion<a class="headerlink" href="#discussion" title="Permanent link">&para;</a></h2>
+<p>This research utilized an active place avoidance task in combined a genetic manipulation of the fragile X metal retardation protein-encoding gene (FMR1) to study the neural and molecular mechanisms that underlie hippocampal-dependent avoidance learning and spatial memory. </p>
+<h3 id="confirmed-no-systematic-pre-training-group-differences">Confirmed no systematic pre-training group differences<a class="headerlink" href="#confirmed-no-systematic-pre-training-group-differences" title="Permanent link">&para;</a></h3>
+<p>I first confirmed that there were no systematic difference in space use (as indicated by the proportion of time spent in each quadrant) before the onset of training (Fig. 2.2A). There were also no differences in the average length of the path to the first entrance or the number of entrances into the (future, initial) shock zone (Fig 2.2B, C). This is an important baseline to establishing before examining the expression of avoidance behavior and spatial memory use.</p>
+<h3 id="confirmed-the-expression-of-avoidance-behavior-in-avoidance-trained-groups">Confirmed the expression of avoidance behavior in avoidance trained groups<a class="headerlink" href="#confirmed-the-expression-of-avoidance-behavior-in-avoidance-trained-groups" title="Permanent link">&para;</a></h3>
+<p>Next, I demonstrated that both consistent and conflict trained mice from the WT and FMR1-KO groups can avoid the rotating shock zone in all trials where the shock is on. The results demonstrate that both consistent and conflict trained groups from WT and FMR1-KO genotypes spending less than 2% of their time in the shock zone whereas yoked mice spend an equal amount of time (25%) in all four quadrants of the arena (Fig 2.3).</p>
+<h3 id="determined-that-initial-place-learning-was-weaker-than-predicted-in-wild-type-mice">Determined that initial place learning was weaker than predicted in wild-type mice<a class="headerlink" href="#determined-that-initial-place-learning-was-weaker-than-predicted-in-wild-type-mice" title="Permanent link">&para;</a></h3>
+<p>Next, I examined whether or not the genotypes differed in initial learning of the shock zone. The prediction based on published literature is that both genotypes learn the task equally well (see Radwan55, Chapter 181, or Fig 2.4A, D). On training sessions 1-3, differences in the path to the first entrance between yoked and trained are minimal indicating little evidence of acquiring place memory during the initial training session (Fig 2.4 E). Additionally, the mean number of entrances into the shock zone by the WT trained groups is higher than predicted based on previous research, indicating that the animals need more reinforcement to learn the location of the shock zone (Fig 2.4 B). On Day 2, however, the WT mice showed evidence for using place memory to solve the task (Fig 2.4 E). Therefore, I concluded that initial learning of was weak but that WT mice to indeed use a hippocampal-dependent place avoidance strategy to solve the task. </p>
+<h3 id="wt-and-fmr1-mice-use-different-strategies-to-solve-the-place-avoidance-task">WT and FMR1 mice use different strategies to solve the place avoidance task<a class="headerlink" href="#wt-and-fmr1-mice-use-different-strategies-to-solve-the-place-avoidance-task" title="Permanent link">&para;</a></h3>
+<p>However, weak the performance of trained WT mice on Day 1, the conflict task on Day 2 highlights the fact that the mice are indeed using place memory to avoid the shock zone. The wild-type conflict mice made four times as many entrances into the shock zone on the first conflict trial compared to the wild-type mice. Both consistent and conflict WT groups perform equally well by the third conflict session on Day 2 (Fig. 2.6A, 2.6B). Together, these data suggest that wild-type mice use a hippocampal-dependent place avoidance strategy to solve the task. Thus, wild-type mice that are conflict-trained show evidence of memory discrimination by using spatial orientation to avoid the shock zone on Day 1 and Day 2 when the environment shifts. </p>
+<p>On the other hand, FMR1-KO mice performed the task well on Day1 as evidenced by the trained mice displaying fewer entrances into the shock zone during initial training (Fig. 2.5C). However, FMR1-KO animals appear to never use place memory as a strategy for solving this task of avoiding the shock zone during any of the training sessions with the shock on (Fig. 2.5F). Additionally, the conflict-trained animals do not show evidence of discriminating between the first and the second location of the shock zone. Conflict trained FMR1-KO mice do not perform more poorly on the task than consistently trained FMR1-KO mice (Fig. 2.6A, 2.6B) indicating that they do not have to discriminate between place memories of the old and new shock zone. </p>
+<p>The weak learning demonstrated by the WT mice may or may not have been due to extraneous factors in the room that suppressed initial learning. Whatever the cause, it gave the FMR1-KO mice the opportunity to demonstrate a non-hippocampal dependent place avoidance strategy that was a successful way to solve the task. To continue exploring the effects of FMR1 loss of function, it will be essential to study brain function in multiple learning contexts with different environments.</p>
+<h3 id="neural-transcriptomics">Neural-transcriptomics<a class="headerlink" href="#neural-transcriptomics" title="Permanent link">&para;</a></h3>
+<p>Given the lack of robust place learning, I opted to focus solely on the effect of genotype for the RNA-sequencing analysis. Thus, I selected naive animals (yoked-conflict mice without cognitive training) for subsequent analysis of the transcriptional effects of gene-knockout better. Overall, I found that very few genes appear to be affected in their expression by FMR1-KO.  I found that only 20 genes in the CA1 hippocampal subfield differed significantly between yoked-consistent WT and yoked-consistent FMR1-KO mice (Fig 2.8B).  Among the affected genes were those that genes with mRNA or protein products known to interact with FMRP directly or are known risk genes for autism spectrum disorder. Detect¬¬ion of minimal FMR1 transcripts was expected given the method of gene knockout95. The protein encoded by Ccnd2 is a highly conserved cyclin that regulates cyclin-dependent kinases. Co-localization of FMRP and Ccnd2 mRNA has been shown in the developing brain98, and it was downregulated in another FMR1-KO study96. Another down-regulated gene is Serpina3, a putative biomarker for Alzheimer’s disease has also been shown to be down-regulated in FMR1-KO mice96,99. The Ceolin et al. (2017) study (both the published dataset and my reproduction) identified down-regulation of, Serpina3n, as being strongly down-regulated in FMR1-KO mice (Fig 2.10). Serpina3 is not the only gene shared by neurodegenerative disorders like Alzheimer’s disease (AD) and Fragile X syndrome. mGluR dysfunction has also linked to both100</p>
+<p>Interestingly, the gene encoding the ionotropic glutamate Receptor (Grin1) was upregulated in WT mice. Using immuno-precipitation (IP) followed by microarray analysis of gene expression Brown et al. 2001 found that the association of Grin1a mRNA and the FMRP-bound large messenger-ribonucleoprotein (mRNP) complex was enriched in WT-IP compared with the FMR1-KO-IP93. Glutamate receptors are known to influence long-term synaptic modulation by stimulating the synthesis of synaptic proteins, including postsynaptic density 95 (PSD-95) and FMRP101–104. </p>
+<p>The expression of genes involved in calcium ion binding appear to be downregulated in FMR1-KO mice. The gene encoding the pore-forming α1 subunit of the voltage-gated calcium channel (Cacna1g) is also among the list of down-regulated genes in my study. SNPs in  Cacna1g and other calcium channel genes have been found to be associated with autism spectrum disorder105–107. The gene Efcab6 (EF-Hand Calcium Binding Domain 6) encode a protein that is involved with calcium ion binding and transcriptional regulation. Calcium binding and calcium transport are also notably on the list of molecular functions that are significantly downregulated in FMR1-KO mice in both this study (Fig 2.8C) and my reproduction of the Ceolin study (Fig 2.10). Calmodulin-dependent protein kinases are abundant in the postsynaptic density. Overexpression of CaMKII can dramatically increase synaptic strength as it is a major regulator of long-term potentiation (LTP) and long-term depression (LTD) processes108,109. Previous studies have found that knockout mice without Calmodulin-dependent protein kinases CaMKIIA demonstrate a low amplitude of LTP110.  However, even though calmodulin-binding activity is reduced in the FMR1-KO mice, I did not observe a reduction in synaptic strength at the CA3-CA1 synapse (as measured by maximum fEPSP slope) with avoidance learning or with FMR1-KO (Fig. 2.8).</p>
+<h3 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Permanent link">&para;</a></h3>
+<p>There are some limitations to this study. To obtain a sufficient samples size for the behavioral and transcriptomic experiments in the time frame allotted from our summer collaboration, we processed animals in both the morning and in the evening. We aimed to have a balanced design to control for any effects of time of day. However, when running an analysis of weighted gene co-expression of the effect of genotype and time of day, it became clear that daytime had a strong effect. Hundreds of genes show patterns of co-regulation that are significantly correlated with the time of day (data not shown) which may mask differences in gene expression due to genotype.
+Another possible limitation of this study is related to the chose of statistical methods for analysis of group differences. To test my hypotheses, I needed to compare consistent and conflict mice from WT and FMR1-KO mice. However, rather than only compare these groups, I included the yoked groups in all ANOVA and post-hoc analyses. This means that some statistical power was given to assessing uninteresting things like differences between yoked groups.  While I believe that included all groups in the analysis provided a more accurate representation of the data, one could argue that different statistical analysis are indeed equally or more appropriate.</p>
+<h3 id="conclusions">Conclusions<a class="headerlink" href="#conclusions" title="Permanent link">&para;</a></h3>
+<p>Despite a slow initial learning curve, the wild-type mice show a clear use of place memory and memory discrimination solve the active place avoidance task. Hippocampal-dependent place avoidance strategies are not the way to successfully avoid aversive stimuli. Animals that are indifferent to the place of the shock zone will be indifferent to changes in its location and thus will not be challenged to demonstrate behavioral flexibility. FMR1-KO mice demonstrate the use of a non-place strategy by successfully avoiding the shock zone without ever showing evidence of a place memory. By preferring to use non-place strategies, FMR1-KO animals are unlikely to depend on hippocampus for their adaptive behavior and instead demonstrate adaptive but fixed (inflexible) behavior that can be an effective general purpose solution to their cognitive challenges although it is not optimal. This interpretation predicts that across the entire conflict protocol the WT and FMR1-KO groups will receive similar amounts of punishment; however, the FMR1-KO punishment is constant and intermediate across trials whereas the WT is large at the start and lower at the end. </p>
+<p>I demonstrated that FMR1 knockout, which is known to disrupt local translation in the hippocampus, also alters gene expression in the CA1 subfield. By reproducing the results of a recently published study, I was able to compare both studies to identify robust pattern of downregulation of genes related to calcium ion signaling. Even though FMRP is typically thought to disrupt translation, my data suggest that FMRP loss also has effects on the upstream process of gene expression. More research is needed to understand the underlying molecular mechanisms that regulate the expression of place memory and non-place memory strategies for solving cognitive tasks.</p>
+<h2 id="acknowledgements">Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permanent link">&para;</a></h2>
+<p>I am grateful to Brett Mensh, Konrad Kording, and the PLOS One Computational Biology Community for publishing a beautiful paper and graphical abstract for structuring papers. I am grateful for discussions with Dr. James Noonam's lab at Yale University. I thank Suzy Renn for introducing me to volcano plots19. I thank Becca Young Brim, Caitlin Friesen, Tessa Solomon Lane, Mariana Rodriguez, Eric Brenner, and Issac Miller-Crews for helping advice regarding on figures and oral presentations of this research. I thank members of the Boris Zemelman, Laura Colgin, and Misha Matz for helpful discussions. The bioinformatic workflow was inspired heavily by workshops and online resources from the BioITeam (https://wikis.utexas.edu/display/bioiteam), the Center for Computational Biology and Bioinformatics (http://ccbb.utexas.edu), and Software Carpentry Curriculum on the Unix Shell, Git for Version Control, and R for Reproducible Research111–113. This work is supported by a Society for Integrative Biology (SICB) grant and a UT Austin Graduate School Continuing Fellowship to RMH; a generous gift from Michael Vasinkevich to AAF; NIH-NS091830 to JMA, IOS-1501704 to HAH; NIMH-5R25MH059472-18, the Grass Foundation, and the Helmsley Charitable Trust. </p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../01_intwt15/" title="Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../03_dissociation/" title="Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 <a href="https://raynamharris.github.io/">Rayna Harris
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/raynamharris" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/raynamharris" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://linkedin.com/in/rayna-harris-484802ba" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.e72fd936.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-58133703-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,888 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Transcriptional Plasticity in the Hippocampus and its Role in Conditioned Avoidance Learning">
+      
+      
+        <link rel="canonical" href="http://raynamharris.github.io/Thesis/03_dissociation/">
+      
+      
+        <meta name="author" content="Rayna Harris">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching pages">
+      
+        <meta name="lang:search.result.one" content="1 matching page">
+      
+        <meta name="lang:search.result.other" content="# matching page">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.3">
+    
+    
+      
+        <title>Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations - Rayna Harris Ph.D. Thesis</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009688">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../#abstract" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://raynamharris.github.io/Thesis" title="Rayna Harris Ph.D. Thesis" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Rayna Harris Ph.D. Thesis
+              </span>
+              <span class="md-header-nav__topic">
+                Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search this site" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching this site
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/raynamharris/Thesis" title="Go to repository" class="md-source" data-md-source="github">
+    
+    <div class="md-source__repository">
+      raynamharris/Thesis
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="http://raynamharris.github.io/Thesis" title="Rayna Harris Ph.D. Thesis" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Rayna Harris Ph.D. Thesis
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/raynamharris/Thesis" title="Go to repository" class="md-source" data-md-source="github">
+    
+    <div class="md-source__repository">
+      raynamharris/Thesis
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../preface/" title="Preface" class="md-nav__link">
+      Preface
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../00_intro/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../01_intwt15/" title="Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus" class="md-nav__link">
+      Chapter 1 Avoidance learning induces strong up-regulation of transcription in the DG subfield of the dorsal hippocampus
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../02_fmr1/" title="Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism" class="md-nav__link">
+      Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations
+      </label>
+    
+    <a href="./" title="Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations" class="md-nav__link md-nav__link--active">
+      Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="ABSTRACT" class="md-nav__link">
+    ABSTRACT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sample-processing" title="Sample processing" class="md-nav__link">
+    Sample processing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bioinformatics" title="Bioinformatics" class="md-nav__link">
+    Bioinformatics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistics-and-data-visualization" title="Statistics and data visualization" class="md-nav__link">
+    Statistics and data visualization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-analysis" title="Meta-analysis" class="md-nav__link">
+    Meta-analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archival-of-data-code-and-figures" title="Archival of data, code, and figures" class="md-nav__link">
+    Archival of data, code, and figures
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" title="Results" class="md-nav__link">
+    Results
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-effects-of-cellular-dissociation" title="The effects of cellular dissociation" class="md-nav__link">
+    The effects of cellular dissociation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-effects-of-stressful-experience" title="The effects of stressful experience" class="md-nav__link">
+    The effects of stressful experience
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-31-the-effect-of-cellular-dissociation" title="Fig. 3.1:  The effect of cellular dissociation." class="md-nav__link">
+    Fig. 3.1:  The effect of cellular dissociation.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-32-the-effects-of-a-stressful-experience" title="Fig. 3.2:  The effects of a stressful experience." class="md-nav__link">
+    Fig. 3.2:  The effects of a stressful experience.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-effects-of-cognitive-training" title="The effects of cognitive training" class="md-nav__link">
+    The effects of cognitive training
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-33-the-effects-of-learned-avoidance-behavior" title="Fig. 3.3:  The effects of learned avoidance behavior." class="md-nav__link">
+    Fig. 3.3:  The effects of learned avoidance behavior.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identifying-unique-and-general-patterns-of-hippocampal-genomic-plasticity" title="Identifying unique and general patterns of hippocampal genomic plasticity" class="md-nav__link">
+    Identifying unique and general patterns of hippocampal genomic plasticity
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-34-overlapping-responses-to-technical-and-biological-perturbations" title="Fig. 3.4:  Overlapping responses to technical and biological perturbations." class="md-nav__link">
+    Fig. 3.4:  Overlapping responses to technical and biological perturbations.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-35-meta-analysis-of-primary-and-public-data" title="Fig. 3.5:  Meta-analysis of primary and public data." class="md-nav__link">
+    Fig. 3.5:  Meta-analysis of primary and public data.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion" title="Discussion" class="md-nav__link">
+    Discussion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" title="Acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../conclusion/" title="Conclusion" class="md-nav__link">
+      Conclusion
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../cv/" title="Curriculum Vitae" class="md-nav__link">
+      Curriculum Vitae
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" title="ABSTRACT" class="md-nav__link">
+    ABSTRACT
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sample-processing" title="Sample processing" class="md-nav__link">
+    Sample processing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bioinformatics" title="Bioinformatics" class="md-nav__link">
+    Bioinformatics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistics-and-data-visualization" title="Statistics and data visualization" class="md-nav__link">
+    Statistics and data visualization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-analysis" title="Meta-analysis" class="md-nav__link">
+    Meta-analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archival-of-data-code-and-figures" title="Archival of data, code, and figures" class="md-nav__link">
+    Archival of data, code, and figures
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" title="Results" class="md-nav__link">
+    Results
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-effects-of-cellular-dissociation" title="The effects of cellular dissociation" class="md-nav__link">
+    The effects of cellular dissociation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-effects-of-stressful-experience" title="The effects of stressful experience" class="md-nav__link">
+    The effects of stressful experience
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-31-the-effect-of-cellular-dissociation" title="Fig. 3.1:  The effect of cellular dissociation." class="md-nav__link">
+    Fig. 3.1:  The effect of cellular dissociation.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-32-the-effects-of-a-stressful-experience" title="Fig. 3.2:  The effects of a stressful experience." class="md-nav__link">
+    Fig. 3.2:  The effects of a stressful experience.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-effects-of-cognitive-training" title="The effects of cognitive training" class="md-nav__link">
+    The effects of cognitive training
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-33-the-effects-of-learned-avoidance-behavior" title="Fig. 3.3:  The effects of learned avoidance behavior." class="md-nav__link">
+    Fig. 3.3:  The effects of learned avoidance behavior.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identifying-unique-and-general-patterns-of-hippocampal-genomic-plasticity" title="Identifying unique and general patterns of hippocampal genomic plasticity" class="md-nav__link">
+    Identifying unique and general patterns of hippocampal genomic plasticity
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fig-34-overlapping-responses-to-technical-and-biological-perturbations" title="Fig. 3.4:  Overlapping responses to technical and biological perturbations." class="md-nav__link">
+    Fig. 3.4:  Overlapping responses to technical and biological perturbations.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fig-35-meta-analysis-of-primary-and-public-data" title="Fig. 3.5:  Meta-analysis of primary and public data." class="md-nav__link">
+    Fig. 3.5:  Meta-analysis of primary and public data.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion" title="Discussion" class="md-nav__link">
+    Discussion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" title="Acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Chapter 3 Analysis of hippocampal transcriptomic responses to technical and biological perturbations</h1>
+                
+                <p>_This chapter is available as a pre-print at <a href="https://www.biorxiv.org/content/10.1101/153585v2">https://www.biorxiv.org/content/10.1101/153585v2</a>.__</p>
+<h2 id="abstract">ABSTRACT<a class="headerlink" href="#abstract" title="Permanent link">&para;</a></h2>
+<p>Single-neuron gene expression studies may be especially important for understanding nervous system structure and function because of the neuron-specific functionality and plasticity that defines functional neural circuits. Cellular dissociation is a prerequisite single-cell sequencing analysis, but the extent to which this process alters the molecular activity in neural tissues has not been determined. This information is necessary for interpreting the results of experimental manipulations that affect neural function such as learning and memory. Here, I quantified the transcriptomic response to cellular dissociation in tissue samples from the dentate gyrus (DG), CA3, and CA1 hippocampus subfields relative to tissues that have been homogenized for whole tissue analysis. I determined that 1% of the hippocampal tissue transcriptome is altered by the process of cellular dissociation. Next, I compared this 'dissociation-induced' gene-expression response to previously described changes in hippocampal subfield expression in response to stressful experience and cognitive training. I found that chemical dissociation response is greater than the transcriptomic response to a stressful experience but weaker than cognitive training.  Finally, I compared our findings against a database of gene expression for single-cell population expression in DG, CA1, and CA1. This meta-analysis identified genes whose expression varies by subfield and by treatment. The important contribution of this paper to the literature is that I begin to describe concordant and discordant effects of technical and behavioral manipulations which will inform the design of future single-neuron transcriptome studies to facilitate a more comprehensive understanding of brain function.</p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>Nervous systems are comprised of diverse cell types that include neurons, glia, and vascular cells, each serving distinct functions and thus expressing different genes. Consider the hippocampus, a structure central for spatial navigation and the processing of event memory in the mammalian brain. To date, distinct aspects of navigation and memory processing have been firmly correlated to activity of particular cellular subfields within the hippocampal formation. This subfield-specific understanding of hippocampal function has led to the notion that cells within a given subfield are homogeneous in their molecular blueprint and perform the same function. However, even within the anatomically-defined subfield of CA1, there are identifiable subclasses of pyramidal cells that belong to distinct functional circuits 19,20. This diversity is even greater when I consider that specific cells within a functional class can be selectively altered by neural activity in the recent or distant past. For example, only a third of the pyramidal cells of the superficial CA1 sub-layer is expected to be activated by experience, and only a subset of those will undergo synaptic strengthening to trigger further gene expression changes 21,22. All this diversity implies distinctive gene expression, very likely at the level of single neurons, and such considerations may curtail interpretations of gene expression studies that use mixtures of cells or microdissected tissue samples.</p>
+<p>Fortunately, recent advances in tissue processing and sequencing technologies have allowed genome-wide analysis of single cells in the context of brain and behavior studies 23–25. These approaches have led to systems-level insights into the molecular substrates of neural function, along with the discovery or validation of candidate pathways regulating physiology and behavior (Cembrowski et al., 2016). While the complexity of some tissues complicates the interpretation of transcriptome data collected from samples containing hundreds to tens of thousands of cells representing numerous cellular subclasses at different levels of diversity, difficulties with interpretation can be minimized by careful experimental design governing both data collection and data analysis. To complement this effort, and optimize experimental designs, it is necessary to understand the extent to which the treatment of tissue samples before transcriptome analysis might confound interpretation of the results.</p>
+<p>I examined the effect of cellular dissociation on the transcriptomes of specific hippocampal subfields (CA1, CA3, and DG) by comparing tissue homogenization (as a control) and cellular dissociation protocols. Next, I compared this 'dissociation-induced' gene-expression effect to the effect of prior stressful experience that accompanies many protocols to assess learning, memory and innate behaviors, and cognitive training on hippocampal subfield gene expression. Finally, I compared our results against a database of gene expression for single-cell population expression in DG, CA1, and CA1 to further validate the patterns of gene expression that I identified. Knowing how technical perturbations influence the ability to detect the molecular signature of differences in neural and behavioral variables is a significant step in calibrating the ability to mechanistically understand hippocampal function. In addition to understanding the impact of cell dissociation and stressful experience on hippocampus gene expression, the present findings allow evaluating the extent to which gene expression profiles of heterogeneous tissue samples compared with single neuron gene expression profiles. The important contribution of this paper to the literature is that I begin to describe concordant and discordant effects of technical and behavioral manipulations which will inform the design of future single-neuron transcriptome studies to facilitate a more comprehensive understanding of brain function.</p>
+<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<p><em>All data and analyses can be found at<a href="https://github.com/raynamharris/DissociationTest">https://github.com/raynamharris/DissociationTest</a>.</em></p>
+<p>All animal care and use complies with the Public Health Service Policy on Humane Care and Use of Laboratory Animals and were approved by the New York University Animal Welfare Committee. </p>
+<h3 id="sample-processing">Sample processing<a class="headerlink" href="#sample-processing" title="Permanent link">&para;</a></h3>
+<p>A 1-year old C57BL/6J mouse was taken from its cage, anesthetized with 2% (vol/vol) isoflurane for 2 minutes and decapitated. Transverse 300 μm brain slices were cut using a vibratome (model VT1000 S, Leica Biosystems, Buffalo Grove, IL) and incubated at 36°C for 30 min and then at room temperature for 90 min in oxygenated artificial cerebrospinal fluid (aCSF in mM: 125 NaCl, 2.5 KCl, 1 MgSO4, 2 CaCl2, 25 NaHCO3, 1.25 NaH2PO4 and 25 Glucose) 5,6. Two adjacent tissue samples were collected from CA1, CA3, and DG, respectively in the dorsal hippocampus by a punch tool (0.25 mm, P/N: 57391; Electron Microscopy Sciences, Hatfield, PA). </p>
+<p>The ‘control samples' were homogenized by pestle in the homogenization solution provided by Maxwell 16 LEV RNA Isolation Kit (Promega, Madison, WI). The ‘cellular dissociation samples' were incubated for 75 minutes in aCSF containing 1 mg/ml pronase at room temperature, vortexed, centrifuged, and terminated by replacing aCSF containing pronase with aCSF. The sample was then vortexed, centrifuged, and gently triturated by 200-μl pipette tip twenty times in aCSF containing 1% FBS. This sample was centrifuged and added to the homogenization solution using the Maxwell 16 LEV RNA Isolation Kit (Promega, Madison, WI). Frozen samples were sent arena to The University of Texas for RNA isolation as per the manufacturer instruction (Maxwell 16 LEV RNA Isolation Kit (Promega, Madison, WI). RNA libraries were prepared by the Genomic Sequencing and Analysis Facility at the University of Texas at Austin using the Illumina HiSeq platform.  </p>
+<h3 id="bioinformatics">Bioinformatics<a class="headerlink" href="#bioinformatics" title="Permanent link">&para;</a></h3>
+<p>Raw reads were processed and analyzed on the Stampede Cluster at the Texas Advanced Computing Facility (TACC). Quality of the data was checked using the program FASTQC. Low-quality reads and contaminating adapter sequences were removed using the program Cutadapt 7. I obtained an average of 5 million reads for each hippocampal tissue sample and quantified the expression representing 22,485 genes in the mouse reference transcriptome M11. I used Kallisto for pseudo-alignment of reads and transcript counting using the-the Gencode M11 mouse transcriptome 8,9. The code used for this is described in (Harris et al 207 and on GitHub at https://github.com/raynamharris/DissociationTest/tree/master/UNIXworkflow.</p>
+<h3 id="statistics-and-data-visualization">Statistics and data visualization<a class="headerlink" href="#statistics-and-data-visualization" title="Permanent link">&para;</a></h3>
+<p>I used DESeq2 with for normalization and quantification of gene counts with a false discovery corrected (FDR) p-value &lt; 0.2 11,12,13. Principal component analyses (PCA) and hierarchical clustering were used to describe broad patterns of variation 14,15,10,16,12,14,17.  I used GO_MWU <sup>18</sup>using a –log(p-value) as a continuous measure of significance to identify gene ontology categories that are significantly enriched with either up- or down-regulated genes for a given two-way contrast. </p>
+<h3 id="meta-analysis">Meta-analysis<a class="headerlink" href="#meta-analysis" title="Permanent link">&para;</a></h3>
+<p>I downloaded the gene counts from the Cembrowski et al. (2016) dataset (NCBI GEO: GSE74985) and the Harris et al. (2017) dataset (NCBI GEO: GSE99765). Briefly, the Cembrowski dataset contains hippocampal gene expression data for pools of 112 ± six cells for each of 5 cell types (CA1, CA2, and CA3 pyramidal neurons and DG mossy and granule cells) from behaviorally naive, transgenic mice that express a fluorescent protein label in the specific cell types.  Fluorescently-labeled DG, CA3, and CA1 neurons from dorsal and ventral hippocampi were manually sorted (DG granule cells from Rbp4-Cre KL100, CA3 pyramidal cells from Mpp3-Cre KG118, and CA1 pyramidal cells from Vipr2-Cre KE2 mice.) The Harris et al. dataset contains DG, CA3, and CA1 transcriptomes from homecage mice, cognitively trained mice, and yoked control mice. The homecage mice were not examine in previous chapters thus a novel comparison between homecage and yoked controls can be made.  The same statistical analyzes described in the previous section were run on these Cembrowski and Harris datasets to identity differentially expressed genes (FRD p-value &lt; 0.1) in subfields of the hippocampus. I created a binary (0 or 1) list of genes that were significant or not for a GO enrichment analysis using Fisher's exact test to determine if GO categories are overrepresented among the significantly expressed genes.</p>
+<h3 id="archival-of-data-code-and-figures">Archival of data, code, and figures<a class="headerlink" href="#archival-of-data-code-and-figures" title="Permanent link">&para;</a></h3>
+<p>I archived the raw sequence data and intermediate data files in NCBI's Gene Expression Omnibus Database (accession numbers GSE99765 and GSE100225). The data, code, and results are openly available on GitHub (https://github.com/raynamharris/DissociationTest), with an archived version at the time of publication available at Zenodo 26. All Illustrations and multi-panel figures were archived in FigShare under a CC-BY license 27–30. </p>
+<h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
+<h3 id="the-effects-of-cellular-dissociation">The effects of cellular dissociation<a class="headerlink" href="#the-effects-of-cellular-dissociation" title="Permanent link">&para;</a></h3>
+<p>I identified 162 genes that were differentially expressed between the control and dissociated samples, 331 genes that were differentially expressed genes (DEGs) between any of the three hippocampus subfields, and 30 genes were shared between both sets of differentially expressed genes at p-value &lt; 0.05 (Fig 1A, B). A hierarchical clustering analysis of all differentially expressed genes does not give rise to distinct clusters that are separated by subfield or method; however, when examining the control, homogenized samples alone (identified with light grey boxes), the three subfields form distinct clusters, while the dissociated samples do not cluster by subfield (Fig. 1C). A principal component analysis of normalized gene counts reveals that PC1 accounts for 40% of the variation and visually separates the DG samples from the CA1 and CA3 samples (Fig. 1D). To confirm statistical significance of this visual pattern, I conducted a two-way treatment x region ANOVA and confirmed a significant effect of region (F2,11= 17.69; p = 0.0004). Post hoc Tukey tests confirmed CA1 = CA3 &lt; DG. The effect of treatment and the treatment x region interaction were not significant. PC2 accounts for 22% of the variation in gene expression and varies significantly with treatment (F1,12=6.125; p = 0.03) but not by region or the treatment x region interaction. None of the other PCs showed significant variation according to either region or treatment. </p>
+<h3 id="the-effects-of-stressful-experience">The effects of stressful experience<a class="headerlink" href="#the-effects-of-stressful-experience" title="Permanent link">&para;</a></h3>
+<p>I examined the effect of stressful experience, which is a common confound of behavioral manipulations because animals in different experimental groups often experience varying levels of stress, especially if the experimental procedure is not intentionally stressful. I identified 0 genes that were significantly expressed between samples from the home cage and shocked mouse samples; 1669 genes were significantly differentially expressed between any of the three brain regions at p-value &lt; 0.05 (Fig. 2A, B). Hierarchical clustering of the differentially expressed genes gives rise to three distinct clusters corresponding to the three subfields, with CA1 (purple) and CA3 (green) being more similar to one another than to DG (orange), whereas the effects of the stress manipulation were not distinctive (Fig. 2C).  </p>
+<p><img alt="fig1" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/31_dissociation-01.png?raw=true" /></p>
+<h4 id="fig-31-the-effect-of-cellular-dissociation">Fig. 3.1:  The effect of cellular dissociation.<a class="headerlink" href="#fig-31-the-effect-of-cellular-dissociation" title="Permanent link">&para;</a></h4>
+<p><em>A) From a single female mouse, I collected 2 CA1, CA3, and DG hippocampal tissue samples. One sample was subjected to a cellular dissociation treatment (dissociated) whereas the control samples (control) were standardly homogenized. B) I identified 162 dissociation-induced changes in gene expression, 331 genes with region-specific expression patterns, and 30 genes differentially expressed by both region and treatment (FDR p-value &lt; 0.05). C) Hierarchical clustering separates the hippocampal subfields of the homogenized samples (light gray) but not the dissociated samples (dark gray). D) PC1 accounts for 40% of all gene expression variation and, by inspection, separates the DG samples from the CA1 and CA3 samples. PC2 accounts for 22% of the variation in gene expression and varies significantly with treatment. Ellipses are hand-drawn.
+Next, I conducted a principal component analysis of all the genes that were measured. PC1 accounts for 31% of the variation and by inspection, separates the DG samples from the CA1 and CA3 samples (effect of subfield: F2,15= 42.89; p &lt; 0.001; Fig. 2D). Post hoc Tukey tests confirmed CA1 = CA3 ≠ DG. The effects of stress and the stress x subfield interaction were not significant. PC2 accounts for 18% of the variation and varies significantly between CA1 and CA3 and CA1 and DG (effect of region: F2,15= 11.41; p &lt; 0.001; Tukey tests: CA1 ≠ DG = CA3). The effects of stress and the stress x region interaction were not significant. PC3 accounts for 15% of the variation and also explains some subfield-specific differences (effect of region: F2,15= 6.315; p &lt; 0.01; Tukey tests: CA1 = DG ≠ CA3), whereas effects of stress and the stress x region interaction were not significant. PC4 is also influenced by region (F2,15= 6.315; p = 0.0102; Tukey tests: CA1 ≠ CA3. PC5 did not account for any significant differences according to region or treatment. PC6 significantly accounted for variance associated with the effect of a stressful experience (F1,16&gt; 4.774; p’s &lt; 0.04).</em> </p>
+<p><img alt="fig2" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/32_stress-01.png?raw=true" /></p>
+<h4 id="fig-32-the-effects-of-a-stressful-experience">Fig. 3.2:  The effects of a stressful experience.<a class="headerlink" href="#fig-32-the-effects-of-a-stressful-experience" title="Permanent link">&para;</a></h4>
+<p><em>A) I compared CA1, CA3, and DG tissue samples from control mice taken directly from their home cage to mice that were subjected to a mild foot shock. B) I identified 0 genes that responded to treatment, and 1669 genes that were differentially regulated across regions of the hippocampus (FDR p-value &lt; 0.05). C) Hierarchical clusters groups samples by brain region but distinct treatments clusters are not present. D) PC1 accounts for 31% of the variation and visually separates the DG samples from the CA1 and CA3 samples. PC2 accounts for 18% of the variation and distinguish the three subfields. Ellipses were hand-drawn.</em></p>
+<h3 id="the-effects-of-cognitive-training">The effects of cognitive training<a class="headerlink" href="#the-effects-of-cognitive-training" title="Permanent link">&para;</a></h3>
+<p>I identified that 423 genes were differentially expressed between the yoked control and cognitively trained animals, 3485 genes that were differentially expressed across subfields, and 324 showed an interaction at FDR p &lt; 0.05 (Fig. 2A, B). I see a large effect of brain region on gene expression, with 20% of detectable genes being differentially expressed between one or more brain-region comparisons (3485 differentially expressed genes /17320 measured genes). This is an order of magnitude greater than the 2% of the transcriptome that changed in response to learning (423 DEGs /17320 genes measured). Hierarchical clustering of the differentially expressed genes separates samples by both subfield and treatment (Fig. 2C). A principal component analysis of all gene expression data revealed that brain region explains 75% of the variance in the data (Fig. 2D). PC1 accounts for 56% of the variance and distinguishes DG from the Ammon’s horn samples (effect of subfield: F2,19= 226.1; p &lt; 0.001; Tukey tests: DG ≠ CA3 = CA1 ), but the effects of training and the training x region interaction were not significant. PC2 accounts for 19% of the variance and distinguishes the three subfields (effect of region: F2,19= 255.3; p &lt; 0.001; Tukey tests: DG ≠ CA3 ≠ CA1). PC3 and PC4 indicate a significant influence of cognitive training (PC3: F1,20=7.451; p = 0.01,) and (PC4: F1,20=10.11; p = 0.005), but no significant effects of region and the region x treatment interaction. </p>
+<p><img alt="fig3" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/33_cognitiontest-01.png?raw=true" /> </p>
+<h4 id="fig-33-the-effects-of-learned-avoidance-behavior">Fig. 3.3:  The effects of learned avoidance behavior.<a class="headerlink" href="#fig-33-the-effects-of-learned-avoidance-behavior" title="Permanent link">&para;</a></h4>
+<p><em>A) Mice used in this study were either subjected to random but mild foot shocks (control) or subjected to mild foot shocks conditioned with spatial cues (trained). Tissue samples were collected from CA1, CA3, and DG. B) I identified only 423 genes that were significantly expressed according to cognitive training and identified 3485 genes that were differentially expressed between any of the three brain regions (FDR p-value &lt;0.05). C) Hierarchical clustering of the differentially expressed genes gives rise to three distinct clusters corresponding to the three brain regions, with CA1 and CA3 being more similar to one another than to DG. D) A principal component analysis of all genes in the analysis (regardless of the level of significance) shows that PC1 accounts for 56% of the variation and visually distinguishes the DG samples and the CA1 and CA3. PC2 accounts for 19% of the variation and separates all three subfields. Ellipses were hand-drawn.</em></p>
+<h3 id="identifying-unique-and-general-patterns-of-hippocampal-genomic-plasticity">Identifying unique and general patterns of hippocampal genomic plasticity<a class="headerlink" href="#identifying-unique-and-general-patterns-of-hippocampal-genomic-plasticity" title="Permanent link">&para;</a></h3>
+<p>Next, I examined the overlap in genomic response to the technical and biological perturbations. I identified three specific genes that responded to both cellular dissociation and cognitive training: Grin2a, Epha6, and Ltbp3 (Fig. 4A). There was no overlap in differentially expressed genes compared to the cellular dissociation treatment (Fig. 4A).  Then, analyzed gene ontology at 5% FDR significant in each of the data sets to identify the molecular function of genes that changed in response to cellular dissociation  (Fig. 4B) or cognitive training (Fig. 4C). The process of cellular dissociation results in a significant upregulation of molecular processes related to ribosomal activity, rRNA binding, oxidoreductase activity, and proton transport, while it caused a down-regulation of ligase and helicase activity (Fig. 4B). 
+  <img alt="fig4" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/35_meta123-01.png?raw=true" /> </p>
+<h4 id="fig-34-overlapping-responses-to-technical-and-biological-perturbations">Fig. 3.4:  Overlapping responses to technical and biological perturbations.<a class="headerlink" href="#fig-34-overlapping-responses-to-technical-and-biological-perturbations" title="Permanent link">&para;</a></h4>
+<p><em>A) The number of genes that responded to chemical dissociation (163 genes), a stressful experience (0 genes), and cognitive training (423 genes). The three genes that respond to both technical and biological perturbation are Epha6, Grin2a, and Itbp3. B, C) The molecular function of gene ontology (GO) categories that are significantly enriched with either up- or down-regulated genes in response to cellular dissociation (B) or cognitive training (C). The top 10 most significant GO terms are visualized, each with a p-value &lt; 0.001. The fraction next to GO category name indicates the fraction of genes in that category that survived a 10% FDR threshold for significance. Zero terms survived a 10% FDR threshold in response to a stressful experience.
+The GO analysis detected no Molecular Function GO terms in the significantly overrepresented genes in response to the stressful experience. Cognitive training resulted in a significant upregulation of molecular processes related to glutamate receptors, signal transduction, calcium binding, and membrane transport, and it resulted in a significant downregulation of ribosomal activity, oxidoreductase activity, mRNA binding, and proton transport (Fig. 4B).</em> 
+ <img alt="fig5" src="https://github.com/raynamharris/Thesis/blob/master/docs/_images/35_meta1234-01.png?raw=true" /> </p>
+<h4 id="fig-35-meta-analysis-of-primary-and-public-data">Fig. 3.5:  Meta-analysis of primary and public data.<a class="headerlink" href="#fig-35-meta-analysis-of-primary-and-public-data" title="Permanent link">&para;</a></h4>
+<p><em>A) This Venn diagram shows the overlap in brain-region specific gene expression across all four experiments (cellular dissociation, stressor habitation, cognitive training, and a public dataset examining subfield comparisons). Using this approach, I identified 146 genes that were differentially expressed between any two subfields of the hippocampus in all four experiments. B) Those 146 provide robust brain-region specific markers of gene expression belong to molecular function and cellular compartment GO. The top 10 most significant GO terms are visualized, each with a p-value &lt; 0.05. The fraction next to GO category name indicates the fraction of genes in that category that survived a 10% FDR threshold for significance.</em></p>
+<p>The gene ontology analysis identified 91 significant GO terms in response to cognitive training. Among the top 10 are glutamate signaling and membrane transport systems and a downregulation of oxidoreductase and ribosomal activity (Fig. 4C). Notably, learning induces a downregulation of a structural constituent of ribosomes and oxidoreductase, which were both up-regulated in response to cellular dissociation (Fig. 4B, C).  Using the public Cembrowski et al. 2016 dataset, I identified 10,751 genes that were differentially expressed between hippocampal sub-regions (Fig. 5A). Using a meta-analysis of public the primary data, I identified 146 genes that showed robust subfield-specific gene expression patterns (Fig. 5A). Those 146 genes are enriched in cellular compartments related to synapses and molecular functions related to calcium signaling, GTP exchange, and proteoglycan binding (Fig. 5B). </p>
+<h2 id="discussion">Discussion<a class="headerlink" href="#discussion" title="Permanent link">&para;</a></h2>
+<p>The primary purposes of this study were 1) to test whether analysis of gene expression in hippocampus subfields is changed by tissue preparation procedures (cellular dissociation versus homogenization) and 2) to evaluate the effects of a stressful experience relative to cognitive training on analysis of gene expression. The work was designed to evaluate the extent to which technical (i.e., cellular dissociation) and biological confounds (i.e., stressful experience) can impact efforts to assess the transcriptomic response to cognitive processes. This is potentially important because it is increasingly necessary to conduct molecular analyses of single-cells. </p>
+<p>Hippocampal subfield differences are well known 31–34. Across the three experiments with different treatments, the identity of the hippocampal subfield explained between 40 and 75% of all the variation in gene expression across samples (Fig 1D, 2D, 3D). The samples that were subjected to cellular dissociation show the least amount of region-specific variation, suggesting that this process might alter the genes that typically distinguish the hippocampal subfields from one another. On the other hand, the Cembrowski et al., (2015) study identified a larger number of genes with subfield specificity; this is likely due to the cell sorting process that generates a relatively homogenous rather than a heterogeneous population of neurons. These results indicate that cell-type specific differences may be recovered by sorting cells from very heterogenous tissues into more homogeneous populations of cells.</p>
+<p>Across the datasets, many genes consistently or robustly demonstrate hippocampal subfield specificity in their expression (Fig. 5B). The meta-analysis of the primary data and the public Cembrowski et al., (2016) data identified 146 genes that could potentially serve as robust subfield specific markers. The molecular functions of these potential marker genes are diverse, related to calcium channel regulation, proteoglycan binding, and guanyl-nucleotide (GTP) exchange, as well as cellular compartment categories related to the synapse and the postsynaptic density. This suggests that the phenotypic and functional differences amongst DG, CA3, and CA1 neurons may be driven or influenced by subfield differences in gene expression. </p>
+<p>Concerning the effects of cellular dissociation of hippocampal gene expression, I found that 0.9% (162/16,709) of the genes measured changed in response to cellular dissociation (Fig. 1B). This is smaller than the 2.4% (423 /17,320) change I detected in response to cognitive training (Fig. 2B). The stressful experience produces a negligible response (i.e., no significant genes or GO terms were detected), indicating that the mild stress that likely accompanies most behavioral tasks does not have a lasting influence on hippocampal gene expression (Fig. 2B). </p>
+<p>The extent to which cellular dissociation and unintended stress impact the expression of particular genes and signaling pathways limits the feasibility of investigating how genes contribute to behavior and other responses to organismal manipulations. I found that Grin2a responded to both cellular dissociation and cognitive training (Fig. 4A). Grin2a encodes subunits of N-methyl-D-aspartate (NMDA) type ionotropic glutamate receptors that are crucial for numerous cellular functions throughout the brain, including hippocampus-dependent synaptic plasticity and learning 35,36. Accordingly, care should be taken when studying the role of glutamate and MAPK signaling in combination with cellular dissociation techniques. Epha6 and Ltbp3 also responded to both cellular dissociation and cognitive training (Fig. 4A). Epha6 is involved with the MAPK-Erk signaling pathway. Ltbp3 participates in binding calcium ions and shows altered gene expression in a mouse model of Alzheimer’s Disease 37.  </p>
+<p>I can look beyond the specific genes and examine which pathway responses are concordant or discordant to multiple treatments. In this case, I saw upregulation of ribosomal activity and rRNA biding in response to cellular dissociation, but I saw an opposing downregulation in ribosomal activity and mRNA binding in response to cognitive training (Fig. 4B,C). This suggests that cellular dissociation activates a general transcriptional response whereas cognitive training reduces the transcription of particular protein-coding genes. This demonstrates the possibility that such an interaction, in this case a downregulation in response to cognitive training could be overshadowed by technical artifacts if hippocampus tissue is first subjected to the cellular dissociation required for single-cell or single cell population investigations. </p>
+<p>I found no detectable transcriptional response in the CA1, CA3, or DG following the stressful experience (Fig. 2B). The shock experience I used causes a substantial increase in plasma corticosterone levels, comparable to exposure to predator threat, that is observed after the initial shock exposure session but is absent 24-h later after the second training session 38. Our findings support the use of either home cage or shock-yoked animals as controls for active place avoidance training experiments. In the case of the homecage controls that do not experience shock, their stress response is indistinguishable from the trained mice, but their sensory experience is very different. In contrast, the shock-yoked mice have identical sensory experience as the experimental mice, but they experience stress that the experimental animals do not 38. It may be that untrained mice are ideal controls because they would have the identical experience of the environment as experimental mice, except at the brief 500 ms moments of shock that account for ~3% of the task assuming 20 shocks in 600 s. Depending on the question one control may be preferable over the others, but as demonstrated here, when assessed 24 h after the training experience, they appear to be equivalent regarding their gene expression profiles (Fig. 2). </p>
+<p>Many factors contribute to variation in gene expression. I set out to identify the extent to which the process of cellular dissociation – which allows for single-cell analysis of neurons – has an appreciable effect on our ability to detect biologically meaningful variation in hippocampal gene expression. I conclude that there are specific dissociation-induced and cognitive training-induced changes in gene expression that are largely non-overlapping. It is encouraging that the overlap between cellular dissociation and cognitive training is small, indicating that these technical and biological processes affect different transcriptional processes. It is also gratifying to know that the stressful experience had no substantial effect on hippocampal gene expression because its generalization to other tasks will allow for using behavioral control groups and behavioral manipulations that also induce modest, potentially confounding stress. These findings provide insight into how cellular and biological manipulations influence gene expression. Through meta-analysis with open-access data, I have identified a subset of robust sub-region specific markers of gene expression profiling. Further research is needed to uncover the influence of other variables on variation in hippocampal gene expression.</p>
+<h2 id="acknowledgements">Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permanent link">&para;</a></h2>
+<p>This work was carried out as part of the Neural Systems and Behavior Course Directors Research Program run by HAH and AAF at the Marine Biological Laboratory. I thank The Jackson Laboratory for generously donating mice; Promega Corporation for generously donating molecular supplies and use of the MaxwellⓇ; and other vendors for donating materials to perform the electrophysiology. I are grateful to the GSAF for library prep and sequencing. I thank members of the Hofmann lab, Fenton Lab, Boris Zemelman, Laura Colgin, and Misha Matz for helpful discussions. I are grateful to Dennis Wylie for insightful comments on earlier versions of this manuscript. The bioinformatic workflow was inspired heavily by Center for Computational Biology’s Bioinformatics Curriculum and Software Carpentry Curriculum on the Unix Shell, Git for Version Control, and R for Reproducible Research 39–41. This work is supported by a Society for Integrative Biology (SICB) grant and a UT Austin Graduate School Continuing Fellowship to RMH; a generous gift from Michael Vasinkevich to AAF; NIH-NS091830 to JMA, IOS-1501704 to HAH; NIMH-5R25MH059472-18, the Grass Foundation, and the Helmsley Charitable Trust. The authors declare no competing interests.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../02_fmr1/" title="Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Chapter 2 Reproducible approaches for studying behavior and transcription in a mouse model for autism
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../conclusion/" title="Conclusion" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Conclusion
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 <a href="https://raynamharris.github.io/">Rayna Harris
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/raynamharris" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/raynamharris" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://linkedin.com/in/rayna-harris-484802ba" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.e72fd936.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-58133703-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      
+    
+  </body>
+</html>
